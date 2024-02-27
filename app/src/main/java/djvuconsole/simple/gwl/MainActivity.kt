@@ -22,6 +22,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -99,6 +100,7 @@ class ThemeWordsViewModel: ViewModel() {
         _innerWords.clear()
         if (words != null)
             _innerWords.addAll(words)
+            _innerWords.shuffle()
     }
 
     fun getValue(index: Int): Word {
@@ -165,8 +167,9 @@ class ThemesViewModel: ViewModel() {
     {
         _innerWords.clear()
 
-        if (words != null)
+        if (words != null) {
             _innerWords.addAll(words)
+        }
     }
 
     fun getValue(index: Int): Theme {
@@ -207,13 +210,18 @@ fun WordUI(
     if (wellnessViewModel.isEmpty())
         wellnessViewModel.setValues(List(words.count()) { Color.LightGray })
 
+    var score by remember {
+        mutableIntStateOf(0)
+    }
+
     Surface(
         modifier = Modifier.fillMaxSize(),
     ) {
         Column(modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp)) {
-            Text(text = "Theme: $selectedTheme (${index + 1} / ${indexMax - 1})\n", textAlign = TextAlign.Center)
+            Text(text = "Theme: $selectedTheme (${index + 1} / ${indexMax - 1})", textAlign = TextAlign.Center)
+            Text(text = "Score: $score\n", textAlign = TextAlign.Center)
             Text(
                 text = "${word.getValue().english} (${word.getValue().languageType})\n",
                 textAlign = TextAlign.Center,
@@ -230,9 +238,11 @@ fun WordUI(
                     onSelect = {
                         wellnessViewModel.resetValues()
                         onSelect(w)
+                        score += 2
                     },
                     onColor = {
                         wellnessViewModel.setValue(i, it)
+                        score -= 1
                     },
                     color = wellnessViewModel.getValue(i)
                 )
@@ -345,7 +355,9 @@ fun OnboardingScreen(onSelectTheme: (Theme) -> Unit,
                         Text(
                             text = "Select theme"
                         )
-                        Button(onClick = { loadData = true }, modifier = Modifier.padding(4.dp).fillMaxWidth()) {
+                        Button(onClick = { loadData = true }, modifier = Modifier
+                            .padding(4.dp)
+                            .fillMaxWidth()) {
                             Text(text = "Load")
                         }
                     }

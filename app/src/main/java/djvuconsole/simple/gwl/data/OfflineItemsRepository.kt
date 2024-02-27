@@ -1,12 +1,10 @@
 package djvuconsole.simple.gwl.data
 
-import kotlinx.coroutines.flow.Flow
-
 
 class OfflineItemsRepository(private val itemDao: WordDAO) : ItemsRepository {
-    override fun getAllItemsStream(): Flow<List<Word>> = itemDao.getAllItems()
+    override fun getAllItemsStream(): List<Word> = itemDao.getAllItems()
 
-    override fun getItemStream(id: Int): Flow<Word?> = itemDao.getItem(id)
+    override fun getItemStream(id: Int): Word = itemDao.getItem(id)
 
     override suspend fun insertItem(item: Word) = itemDao.insert(item)
 
@@ -14,7 +12,9 @@ class OfflineItemsRepository(private val itemDao: WordDAO) : ItemsRepository {
 
     override suspend fun updateItem(item: Word) = itemDao.update(item)
 
-    override suspend fun getTheme(theme: String): Flow<List<Word>> = itemDao.getTheme(theme)
+    override suspend fun getTheme(theme: String): List<Word> = itemDao.getTheme(theme)
 
-    override suspend fun getThemes(): Flow<List<String>> = itemDao.getThemes()
+    override suspend fun getThemes(): List<String> = itemDao.getThemes()
+
+    override suspend fun getThemesWithLevel(): List<Theme> = itemDao.getThemesWithLevel()
 }

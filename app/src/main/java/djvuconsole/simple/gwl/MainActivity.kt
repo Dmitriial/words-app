@@ -21,12 +21,9 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.Alignment
@@ -41,11 +38,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.room.Room
 import djvuconsole.simple.gwl.data.InventoryDatabase
+import djvuconsole.simple.gwl.data.Theme
 import djvuconsole.simple.gwl.data.Word
 import djvuconsole.simple.gwl.ui.WordsViewDBModel
 import djvuconsole.simple.gwl.ui.theme.GWLTheme
-import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.launch
 
 
 // State of the List objects inside (!)
@@ -87,7 +83,7 @@ class ColorsViewModel: ViewModel() {
 }
 
 class ThemeWordsViewModel: ViewModel() {
-    private val _innerWords = ArrayList<Word>().toMutableStateList()
+    private val _innerWords = ArrayList<Word>()
 
     fun count(): Int {
         return _innerWords.count()
@@ -98,10 +94,11 @@ class ThemeWordsViewModel: ViewModel() {
         _innerWords.addAll(words)
     }
 
-    fun setValues(words: List<Word>)
+    fun setValues(words: List<Word>?)
     {
         _innerWords.clear()
-        _innerWords.addAll(words)
+        if (words != null)
+            _innerWords.addAll(words)
     }
 
     fun getValue(index: Int): Word {
@@ -112,47 +109,100 @@ class ThemeWordsViewModel: ViewModel() {
     }
 
     fun getValues(): List<Word> {
-        return _innerWords.toMutableStateList()
+        return buildList { addAll(_innerWords) }
     }
 }
 
 
-class ThemesViewModel: ViewModel() {
-    private val _innerWords = ArrayList<String>().toMutableStateList()
+class ThemeWordsSelectedViewModel: ViewModel() {
+    private val _innerWords = ArrayList<Word>()
 
     fun count(): Int {
         return _innerWords.count()
     }
 
-    fun addValues(words: List<String>)
+    fun addValues(words: List<Word>)
     {
         _innerWords.addAll(words)
     }
 
-    fun setValues(words: List<String>)
+    fun setValues(words: List<Word>?)
     {
         _innerWords.clear()
-        _innerWords.addAll(words)
+        if (words != null)
+            _innerWords.addAll(words)
     }
 
-    fun getValue(index: Int): String {
+    fun getValue(index: Int): Word {
         if (_innerWords.count() <= index)
-            return ""
+            return Word(greek = "", english = "")
 
         return _innerWords[index]
     }
 
-    fun getValues(): List<String> {
-        return _innerWords.toMutableStateList()
+    fun getValues(): List<Word> {
+        return buildList { addAll(_innerWords) }
+    }
+}
+
+class ThemesViewModel: ViewModel() {
+    private val _innerWords = ArrayList<Theme>()
+
+    fun isEmpty(): Boolean {
+        return _innerWords.isEmpty()
+    }
+
+    fun count(): Int {
+        return _innerWords.count()
+    }
+
+    fun addValues(words: List<Theme>)
+    {
+        _innerWords.addAll(words)
+    }
+
+    fun setValues(words: List<Theme>?)
+    {
+        _innerWords.clear()
+
+        if (words != null)
+            _innerWords.addAll(words)
+    }
+
+    fun getValue(index: Int): Theme {
+        if (_innerWords.count() <= index)
+            return Theme()
+
+        return _innerWords[index]
+    }
+
+    fun getValues(): List<Theme> {
+        return _innerWords
     }
 }
 
 
+class WordViewModel: ViewModel() {
+    private var _innerWord = Word(english = "", greek = "")
+
+    fun getValue(): Word {
+        return _innerWord
+    }
+
+    fun setValue(word: Word) {
+        _innerWord = word
+    }
+}
+
 @Composable
-fun WordUI(theme: String = "Theme 0", word: Word,
-           onSelect: (Word) -> Unit,
-           words: ThemeWordsViewModel = viewModel(),
-           wellnessViewModel: ColorsViewModel = viewModel())
+fun WordUI(
+    selectedTheme: String = "Theme 0",
+    onSelect: (Word) -> Unit,
+    word: WordViewModel = viewModel(),
+    words: ThemeWordsSelectedViewModel = viewModel(),
+    wellnessViewModel: ColorsViewModel = viewModel(),
+    index: Int = 0,
+    indexMax: Int = 0)
 {
     if (wellnessViewModel.isEmpty())
         wellnessViewModel.setValues(List(words.count()) { Color.LightGray })
@@ -163,23 +213,23 @@ fun WordUI(theme: String = "Theme 0", word: Word,
         Column(modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp)) {
-            Text(text = "Theme: $theme\n", textAlign = TextAlign.Center)
+            Text(text = "Theme: $selectedTheme (${index + 1} / ${indexMax - 1})\n", textAlign = TextAlign.Center)
             Text(
-                text = "${word.english} (${word.languageType})\n",
+                text = "${word.getValue().english} (${word.getValue().languageType})\n",
                 textAlign = TextAlign.Center,
                 fontSize = 24.sp
             )
             Text(
-                text = if (word.russian.isNotEmpty()) "${word.russian} (${word.languageType})\n" else "",
+                text = if (word.getValue().russian.isNotEmpty()) "${word.getValue().russian} (${word.getValue().languageType})\n" else "",
                 textAlign = TextAlign.Center,
                 fontSize = 24.sp
             )
 
             words.getValues().forEachIndexed { i, w ->
-                WordElement(w, selectedWord = word,
+                WordElement(w, selectedWord = word.getValue(),
                     onSelect = {
                         wellnessViewModel.resetValues()
-                        onSelect(it)
+                        onSelect(w)
                     },
                     onColor = {
                         wellnessViewModel.setValue(i, it)
@@ -239,7 +289,7 @@ fun WordElement(word: Word, selectedWord: Word,
 }
 
 @Composable
-fun OnboardingScreenElement(theme: String, onSelectTheme: (String) -> Unit)
+fun OnboardingScreenElement(theme: Theme, onSelectTheme: (Theme) -> Unit)
 {
     Surface(color=MaterialTheme.colorScheme.primary,
         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) {
@@ -255,7 +305,7 @@ fun OnboardingScreenElement(theme: String, onSelectTheme: (String) -> Unit)
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
-                        text = theme,
+                        text = "${theme.theme} (${theme.level})",
                         color = Color.Unspecified,
                         textAlign = TextAlign.Center,
                     )
@@ -266,9 +316,21 @@ fun OnboardingScreenElement(theme: String, onSelectTheme: (String) -> Unit)
 }
 
 @Composable
-fun OnboardingScreen(onSelectTheme: (String) -> Unit,
-                     themes: List<String>)
+fun OnboardingScreen(onSelectTheme: (Theme) -> Unit,
+                     themesViewModel: ThemesViewModel = viewModel(),
+                     applicationContext: Context? = null,
+                     databaseModel: WordsViewDBModel? = null)
 {
+    var loadData by remember { mutableStateOf(false)}
+
+    val themes = databaseModel?.let { applicationContext?.let {
+        gettingThemeData(
+            databaseModel = databaseModel,
+            applicationContext = applicationContext,
+            loadData = loadData)
+    } }
+    themesViewModel.setValues(themes)
+
     Surface {
         Column(
             modifier = Modifier.fillMaxSize(),
@@ -277,12 +339,21 @@ fun OnboardingScreen(onSelectTheme: (String) -> Unit,
         ) {
             LazyColumn {
                 item {
-                    Text(
-                        text = "Select the theme for training"
-                    )
+                    Row (modifier = Modifier
+                        .padding(24.dp)
+                        .fillMaxWidth()) {
+                        Text(
+                            text = "Select theme"
+                        )
+                        Button(onClick = { loadData = true }, modifier = Modifier.padding(4.dp).fillMaxWidth()) {
+                            Text(text = "Load")
+                        }
+                    }
                 }
-                items(themes) {theme ->
-                    OnboardingScreenElement(theme, onSelectTheme = onSelectTheme)
+                themes?.let {
+                    items(it) { theme ->
+                        OnboardingScreenElement(theme, onSelectTheme = onSelectTheme)
+                    }
                 }
             }
         }
@@ -291,7 +362,11 @@ fun OnboardingScreen(onSelectTheme: (String) -> Unit,
 
 fun getRandomWordsCandidates(themesWords: List<Word>, selectedWord: Word, amount: Int = 3): List<Word>
 {
-    val themesWordsAvailable = themesWords.filter { it != selectedWord }
+    if (themesWords.isEmpty().or(selectedWord.english == ""))
+        return emptyList()
+
+    val inputCopy = buildList { addAll(themesWords) }
+    val themesWordsAvailable = inputCopy.filter { it != selectedWord }
     val themesWordsAvailableShuffled = themesWordsAvailable.shuffled()
     val subset = themesWordsAvailableShuffled.subList(
         0,
@@ -304,115 +379,73 @@ fun getRandomWordsCandidates(themesWords: List<Word>, selectedWord: Word, amount
     return subsetWithWord.shuffled()
 }
 
-//fun loadAllWords(): Map<String, List<Word>> {
-//    val themes = listOf("HELLO", "Something else")
-//    val inputStream = ClassLoader::class.java.classLoader?.getResourceAsStream("assets/data.csv")
-//    val inputString = inputStream?.bufferedReader().use{it?.readText()}
-//
-//    // todo: loads themes with words
-//    val wordsAll = listOf(
-//        Word(
-//            greek = "δουλειά",
-//            english = "job",
-//            gender = Gender.F,
-//            languageType = LType.N
-//        ),
-//        Word(
-//            greek = "καλλιτέχνης",
-//            english = "artist",
-//            gender = Gender.M,
-//            languageType = LType.N
-//        ),
-//        Word(
-//            greek = "γιατρός",
-//            english = "doctor",
-//            gender = Gender.M,
-//            languageType = LType.N
-//        ),
-//        Word(
-//            greek = "οδηγός",
-//            english = "driver",
-//            gender = Gender.M,
-//            languageType = LType.N
-//        ),
-//        Word(
-//            greek = "μηχανικός",
-//            english = "engineer",
-//            gender = Gender.M,
-//            languageType = LType.N
-//        ),
-//        Word(
-//            greek = "εξερευνητής",
-//            english = "explorer",
-//            gender = Gender.M,
-//            languageType = LType.N
-//        )
-//    )
-//    return mapOf(themes[0] to wordsAll)
-//}
+@Composable
+fun loadThemesWords(databaseModel: WordsViewDBModel?, selectedTheme: String): List<Word>? {
+    return databaseModel?.getThemeWords(selectedTheme)
+//    }
+}
 
 @Composable
 fun MyApp(databaseModel: WordsViewDBModel? = null,
+          word: WordViewModel = viewModel(),
+          words: ThemeWordsSelectedViewModel = viewModel(),
           themeWords: ThemeWordsViewModel = viewModel(),
-          themeWordsSelected: ThemeWordsViewModel = viewModel(),
-          themesViewModel: ThemesViewModel = viewModel(),
+          themes: ThemesViewModel = viewModel(),
           applicationContext: Context? = null)
 {
-    val coroutineScope = rememberCoroutineScope()
-    val themes: MutableList<String> = mutableListOf()
-
-    databaseModel?.let { applicationContext?.let {
-        gettingThemeData(
-            databaseModel = databaseModel,
-            themeModel = themesViewModel,
-            applicationContext = applicationContext)
-    } }
-
-    // selects the theme status (!)
     var shouldShowOnboarding by remember { mutableStateOf(true) }
-    var selectedTheme by remember { mutableStateOf(themes[0]) }
+    var selectedTheme by remember { mutableStateOf("") }
+    var selectedWordIndex by remember { mutableStateOf(0) }
+    var selectedWordMaxIndex by remember { mutableStateOf(0) }
 
-    var selectedWordIndex by remember { mutableIntStateOf(0) }
-    var selectedWord by remember { mutableStateOf(Word(greek = "", english = "")) }
+    if (themes.isEmpty())
+        themes.setValues(
+            databaseModel?.getThemesWithLevels() ?: emptyList()
+        )
 
     if (shouldShowOnboarding) {
         OnboardingScreen(
-            onSelectTheme = { theme: String ->
+            onSelectTheme = { theme: Theme ->
                 run {
                     shouldShowOnboarding = false
-                    selectedTheme = theme
+                    selectedTheme = theme.theme
 
-                    coroutineScope.launch {
-                        val words = databaseModel?.getThemeWords(selectedTheme)
-                        words?.onEach {
-                            themeWords.setValues(it)
-                        }
-                    }
+                    themeWords.setValues(
+                        databaseModel?.getThemeWords(theme = theme.theme)
+                    )
 
-                    selectedWord = themeWords.getValue(0)
-                    themeWordsSelected.setValues(
+                    selectedWordMaxIndex = themeWords.count()
+
+                    words.setValues(
                         getRandomWordsCandidates(
                             themesWords = themeWords.getValues(),
-                            selectedWord = selectedWord
+                            selectedWord = themeWords.getValue(selectedWordIndex)
                         )
                     )
+                    word.setValue(themeWords.getValue(selectedWordIndex))
+
                 }
             },
-            themes=themes)
+            themesViewModel = themes,
+            applicationContext = applicationContext,
+            databaseModel = databaseModel)
     } else {
         WordUI(
-            theme = selectedTheme,
-            word = selectedWord,
-            words = themeWordsSelected,
+            selectedTheme = selectedTheme,
+            word = word,
+            words = words,
+            index = selectedWordIndex,
+            indexMax = selectedWordMaxIndex,
             onSelect = {
                 run {
                     selectedWordIndex += 1
-                    if (selectedWordIndex >= selectedTheme.length)
+                    if (selectedWordIndex >= themeWords.getValues().count())
                         selectedWordIndex = 0
 
-                    selectedWord = themeWords.getValue(selectedWordIndex)
+                    val selectedWord = themeWords.getValue(selectedWordIndex) ?: Word(english = "", greek = "")
+                    word.setValue(selectedWord)
 
-                    themeWordsSelected.setValues(
+                    words.setValues(
                         getRandomWordsCandidates(
                             themesWords = themeWords.getValues(),
                             selectedWord = selectedWord
@@ -438,12 +471,8 @@ fun GreetingPreview() {
 fun WordsUIPreview() {
     GWLTheme {
         WordUI(
-            theme = "Test theme",
-            word = Word(
-                greek = "test greek",
-                english = "test english",
-            ),
-            words = ThemeWordsViewModel(),
+            selectedTheme = "Test theme",
+            words = ThemeWordsSelectedViewModel(),
             onSelect = {}
         )
     }
@@ -452,17 +481,10 @@ fun WordsUIPreview() {
 @Composable
 fun gettingThemeData(
     databaseModel: WordsViewDBModel,
-    themeModel: ThemesViewModel,
-    applicationContext: Context
-): List<String> {
-    var themesFlow = databaseModel.getThemes().collectAsState(initial = emptyList())
-    val allWords = databaseModel.getAllWords().collectAsState(initial = emptyList())
-
-    if (themesFlow.value.isNotEmpty().and(allWords.value.isNotEmpty())) {
-        return themesFlow.value
-    }
-
-    if (themesFlow.value.isEmpty()) {
+    applicationContext: Context,
+    loadData: Boolean = false
+): List<Theme> {
+    if (loadData) {
         // FIRST DATA PREPARATION
         val fileText = applicationContext.assets.open("data.csv").bufferedReader().use {
             it.readText()
@@ -478,7 +500,6 @@ fun gettingThemeData(
                 continue
             }
 
-            // todo: processed more fields
             databaseModel.insertWord(
                 Word(
                     english = row[0],
@@ -488,12 +509,9 @@ fun gettingThemeData(
                 )
             )
         }
-        themesFlow = databaseModel.getThemes().collectAsState(initial = emptyList())
     }
-    themeModel.setValues(themesFlow.value)
-    val allWordsAfter = databaseModel.getAllWords().collectAsState(initial = emptyList())
 
-    return databaseModel.getThemes().collectAsState(initial = emptyList()).value
+    return databaseModel.getThemesWithLevels()
 }
 
 class MainActivity : ComponentActivity() {
@@ -502,9 +520,9 @@ class MainActivity : ComponentActivity() {
             context = applicationContext,
             klass = InventoryDatabase::class.java,
             name = "datamodel.db"
-        ).build()
+        ).allowMainThreadQueries().build()
     }
-    private val wordsModel by viewModels<WordsViewDBModel>(
+    private val databaseModel by viewModels<WordsViewDBModel>(
         factoryProducer = {
             object : ViewModelProvider.Factory {
                 override fun <T : ViewModel> create(modelClass: Class<T>): T {
@@ -516,58 +534,10 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-//        val themesList = mutableListOf<String>()
-//
-//        runBlocking {
-//            val themesFlow = wordsModel.getThemes().collectAsState(initial = emptyList())
-//
-//            // fill data from Flow object
-//            themesFlow.onEach {
-//                themesList.addAll(
-//                    it.toMutableStateList()
-//                )
-//            }
-//
-//            if (themesList.isEmpty()) {
-//                // FIRST DATA PREPARATION
-//                val fileText = applicationContext.assets.open("data.csv").bufferedReader().use {
-//                    it.readText()
-//                }
-//
-//                // Using the lines() function to split the string
-//                val lines = fileText.lines()
-//                val wordsSrc = LinkedList<Word>()
-//
-//                for(line in lines.subList(1, lines.count())) {
-//                    // english|greek|lenguageType|gender|example|russian|theme|level|past_form|future_form
-//                    val row = line.split("|")
-//                    if (row.count() < 6) {
-//                        continue
-//                    }
-//
-//                    // todo: processed more fields
-//                    wordsModel.insertWord(
-//                        Word(
-//                            english = row[0],
-//                            greek = row[1],
-//                            theme = row[6],
-//                            level = row[7]
-//                        )
-//                    )
-//                }
-//            }
-//
-//            val flow = wordsModel.getThemes()
-//            flow.onEach {
-//                themesList.addAll(it)
-//            }.collect()
-//        }
-
         setContent {
             GWLTheme {
                 // A surface container using the 'background' color from the theme
-                MyApp(databaseModel = wordsModel, applicationContext = applicationContext)
+                MyApp(databaseModel = databaseModel, applicationContext = applicationContext)
             }
         }
     }

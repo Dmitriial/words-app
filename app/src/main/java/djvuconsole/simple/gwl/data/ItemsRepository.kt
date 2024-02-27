@@ -9,12 +9,12 @@ interface ItemsRepository {
     /**
      * Retrieve all the items from the given data source.
      */
-    fun getAllItemsStream(): Flow<List<Word>>
+    fun getAllItemsStream(): List<Word>
 
     /**
      * Retrieve an item from the given data source that matches with the [id].
      */
-    fun getItemStream(id: Int): Flow<Word?>
+    fun getItemStream(id: Int): Word?
 
     /**
      * Insert item in the data source
@@ -31,7 +31,9 @@ interface ItemsRepository {
      */
     suspend fun updateItem(item: Word)
 
-    suspend fun getTheme(theme: String): Flow<List<Word>>
+    suspend fun getTheme(theme: String): List<Word>
 
-    suspend fun getThemes(): Flow<List<String>>
+    suspend fun getThemes(): List<String>
+
+    suspend fun getThemesWithLevel(): List<Theme>
 }

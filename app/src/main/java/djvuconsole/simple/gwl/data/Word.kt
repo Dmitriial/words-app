@@ -8,7 +8,6 @@ import androidx.room.OnConflictStrategy
 import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Update
-import kotlinx.coroutines.flow.Flow
 
 
 enum class LType
@@ -39,8 +38,8 @@ data class Word(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val theme: String = "",
-    val greek: String,
-    val english: String,
+    val greek: String = "",
+    val english: String = "",
     val languageType: LType = LType.UNKNOWN,
 
     val gender: Gender = Gender.UNKNOWN,
@@ -52,6 +51,11 @@ data class Word(
 
     val futureForm: String = "",
     val pastFrom: String = ""
+)
+
+data class Theme(
+    val theme: String = "",
+    val level: String = ""
 )
 
 
@@ -67,15 +71,18 @@ interface WordDAO {
     suspend fun delete(item: Word)
 
     @Query("SELECT * from words WHERE id = :id")
-    fun getItem(id: Int): Flow<Word>
+    fun getItem(id: Int): Word
 
     @Query("SELECT * from words ORDER BY greek ASC")
-    fun getAllItems(): Flow<List<Word>>
+    fun getAllItems(): List<Word>
 
     @Query("SELECT * from words WHERE theme = :theme")
-    fun getTheme(theme: String): Flow<List<Word>>
+    fun getTheme(theme: String): List<Word>
 
     @Query("SELECT DISTINCT theme from words")
-    fun getThemes(): Flow<List<String>>
+    fun getThemes(): List<String>
+
+    @Query("SELECT DISTINCT theme, level from words")
+    fun getThemesWithLevel(): List<Theme>
 }
 

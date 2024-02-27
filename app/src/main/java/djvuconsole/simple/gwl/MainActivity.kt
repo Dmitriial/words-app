@@ -98,9 +98,10 @@ class ThemeWordsViewModel: ViewModel() {
     fun setValues(words: List<Word>?)
     {
         _innerWords.clear()
-        if (words != null)
+        if (words != null) {
             _innerWords.addAll(words)
             _innerWords.shuffle()
+        }
     }
 
     fun getValue(index: Int): Word {

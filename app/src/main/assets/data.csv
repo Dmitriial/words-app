@@ -1,0 +1,1166 @@
+english|greek|lenguageType|gender|example|russian|theme|level|past_form|future_form
+doctor|γιατρός|N||||hello|A1||
+driver|οδηγός|N||||hello|A1||
+engineer|μηχανικός|N||||hello|A1||
+explorer|εξερευνητής|N||||hello|A1||
+filmmaker|παραγωγός ταινιών|N||||hello|A1||
+photographer|φωτογράφος|N||||hello|A1||
+scientist|επιστήμονας|N||||hello|A1||
+teacher|δάσκαλος|N||||hello|A1||
+writer|συγγραφέας|N||||hello|A1||
+American  |Αμερικανός|A|M|||hello|A1||
+Brazilian |Βραζιλιάνος|A|M|||hello|A1||
+British |Βρετανός|A|M|||hello|A1||
+Canadian |Καναδός|A|M|||hello|A1||
+Chinese |Κινέζος|A|M|||hello|A1||
+Egyptian |Αιγύπτιος|A|M|||hello|A1||
+French |Γάλλος|A|M|||hello|A1||
+German |Γερμανός|A|M|||hello|A1||
+Indian |Ινδός|A|M|||hello|A1||
+Italian |Ιταλός|A|M|||hello|A1||
+Japanese |Ιάπωνας|A|M|||hello|A1||
+Mexican |Μεξικανός|A|M|||hello|A1||
+Nepalese |Νεπαλέζος|A|M|||hello|A1||
+Omani |Ομάνι|A||||hello|A1||
+Spanish |Ισπανός|A|M|||hello|A1||
+Jamaican |Τζαμαϊκανός|A||||hello|A1||
+mobile |κινητό τηλέφωνο|N||||hello|A1||
+goodbye |αντίο|N||||hello|A1||
+goodnight |καληνύχτα|N||||hello|A1||
+meet (v) |γνωρίζω|V||||hello|A1||
+sign (v)|υπογράφω|V||||hello|A1||
+animal (n)|ζώο|N||||hello|A1||
+beautiful (adj)|όμορφος|ADJ||||hello|A1||
+climber (n)|ορειβάτης|N||||hello|A1||
+fantastic (adj)|φανταστικός|ADJ||||hello|A1||
+favourite (adj)|αγαπημένος|ADJ||||hello|A1||
+fisherwoman (n)|γυναίκα ψαράς|N||||hello|A1||
+happy (adj)|ευτυχισμένος|ADJ||||hello|A1||
+hunter (n)|κυνηγός|N||||hello|A1||
+lion (n)|λιοντάρι|N||||hello|A1||
+ocean (n)|ωκεανός|N||||hello|A1||
+place (n)|μέρος|N||||hello|A1||
+river (n)|ποτάμι|N||||hello|A1||
+water buffalo (n)|υδρόβιος βούβαλος|N||||hello|A1||
+whale (n)|φάλαινα|N||||hello|A1||
+beach (n)|παραλία|N||||holidays|A1||
+island (n)|νησί|N||||holidays|A1||
+city (n)|πόλη|N||||holidays|A1||
+Australian (adj)|Αυστραλός|ADJ||||holidays|A1||
+desert (n)|έρημος|N||||holidays|A1||
+holiday (n)|διακοπές|N||||holidays|A1||
+tent (n)|σκηνή|N||||holidays|A1||
+trek (n)|μακρύ ταξίδι|N||||holidays|A1||
+cold (adj)|κρύος|ADJ||||holidays|A1||
+degree (n)|βαθμός|N||||holidays|A1||
+hot (adj)|ζεστός|ADJ||||holidays|A1||
+hotel (n)|ξενοδοχείο|N||||holidays|A1||
+nice (adj)|ωραίος|ADJ||||holidays|A1||
+airport (n)|αεροδρόμιο|N||||holidays|A1||
+black (adj)|μαύρο|ADJ||||holidays|A1||
+blue (adj)|μπλε|ADJ||||holidays|A1||
+brown (adj)|καφέ|ADJ||||holidays|A1||
+bus (n)|λεωφορείο|N||||holidays|A1||
+car (n)|αυτοκίνητο|N||||holidays|A1||
+green (adj)|πράσινο|ADJ||||holidays|A1||
+grey (adj)|γκρι|ADJ||||holidays|A1||
+lake (n)|λίμνη|N||||holidays|A1||
+mountain (n)|βουνό|N||||holidays|A1||
+old (adj)|παλιός|ADJ||||holidays|A1||
+orange (adj)|πορτοκαλί|ADJ||||holidays|A1||
+pink (adj)|ροζ|ADJ||||holidays|A1||
+red (adj)|κόκκινο|ADJ||||holidays|A1||
+white (adj)|λευκό|ADJ||||holidays|A1||
+yellow (adj)|κίτρινο|ADJ||||holidays|A1||
+address (n)|διεύθυνση|N||||holidays|A1||
+business (n)|επιχείρηση|N||||holidays|A1||
+key (n)|κλειδί|N||||holidays|A1||
+postcode (n)|ταχυδρομικός κώδικας|N||||holidays|A1||
+registration (n)|εγγραφή|N||||holidays|A1||
+amazing (adj)|εκπληκτικός|ADJ||||holidays|A1||
+boat (n)|πλοίο|N||||holidays|A1||
+continent (n)|ήπειρος|N||||holidays|A1||
+difficult (adj)|δύσκολος|ADJ||||holidays|A1||
+ice (n)|πάγος|N||||holidays|A1||
+penguin (n)|πιγκουίνος|N||||holidays|A1||
+seal (n)|φώκια|N||||holidays|A1||
+temperature (n)|θερμοκρασία|N||||holidays|A1||
+typical (adj)|τυπικός|ADJ||||holidays|A1||
+brother (n)|αδερφός|N||||families|A1||
+daughter (n)|κόρη|N||||families|A1||
+father (n)|πατέρας|N||||families|A1||
+mother (n)|μητέρα|N||||families|A1||
+parent (n)|γονιός|N||||families|A1||
+sister (n)|αδερφή|N||||families|A1||
+son (n)|γιος|N||||families|A1||
+child (n)|παιδί|N||||families|A1||
+cousin (n)|ξάδερφος|N||||families|A1||
+dead (adj)|νεκρός|ADJ||||families|A1||
+environmentalist (n)|οικολόγος|N||||families|A1||
+family (n)|οικογένεια|N||||families|A1||
+famous (adj)|διάσημος|ADJ||||families|A1||
+granddaughter (n)|εγγονή|N||||families|A1||
+grandmother (n)|γιαγιά|N||||families|A1||
+marine (adj)|θαλάσσιος|ADJ||||families|A1||
+scuba diver (n)|δύτης|N||||families|A1||
+anniversary (n)|επέτειος|N||||families|A1||
+April (n)|Απρίλιος|N||||families|A1||
+August (n)|Αύγουστος|N||||families|A1||
+birthday (n)|γενέθλια|N||||families|A1||
+December (n)|Δεκέμβριος|N||||families|A1||
+February (n)|Φεβρουάριος|N||||families|A1||
+January (n)|Ιανουάριος|N||||families|A1||
+July (n)|Ιούλιος|N||||families|A1||
+June (n)|Ιούνιος|N||||families|A1||
+March (n)|Μάρτιος|N||||families|A1||
+May (n)|Μάιος|N||||families|A1||
+November (n)|Νοέμβριος|N||||families|A1||
+October (n)|Οκτώβριος|N||||families|A1||
+September (n)|Σεπτέμβριος|N||||families|A1||
+sure (adj)|σίγουρος|ADJ||||families|A1||
+wedding (n)|γάμος|N||||families|A1||
+year (n)|χρόνος|N||||families|A1||
+big (adj)|μεγάλος|ADJ||||families|A1||
+home (n)|σπίτι|N||||families|A1||
+meeting (n)|συνάντηση|N||||families|A1||
+office (n)|γραφείο|N||||families|A1||
+poor (adj)|φτωχός|ADJ||||families|A1||
+rich (adj)|πλούσιος|ADJ||||families|A1||
+small (adj)|μικρός|ADJ||||families|A1||
+young (adj)|νεαρός|ADJ||||families|A1||
+baby (n)|μωρό|N||||families|A1||
+congratulations (n)|συγχαρητήρια|N||||families|A1||
+engaged (adj)|αρραβωνιασμένος|ADJ||||families|A1||
+engagement (n)|αρραβώνας|N||||families|A1||
+follow (v)|ακολουθώ|V||||families|A1||
+great (adj)|περίφημος|ADJ||||families|A1||
+kind (adj)|ευγενικός|ADJ||||families|A1||
+lovely (adj)|αξιαγάπητος|ADJ||||families|A1||
+party (n)|πάρτι|N||||families|A1||
+welcome (adj)|ευπρόσδεκτος|ADJ||||families|A1||
+capital (n)|πρωτεύουσα|N||||families|A1||
+country (n)|χώρα|N||||families|A1||
+farmer (n)|αγρότης|N||||families|A1||
+ger (n)|Γκερ|N||||families|A1||
+taxi driver (n)|οδηγός ταξί|N||||families|A1||
+building (n)|κτήριο|N||||cities|A1||
+new (adj)|νέος|ADJ||||cities|A1||
+tower (n)|πύργος|N||||cities|A1||
+bank (n)|τράπεζα|N||||cities|A1||
+bus station (n)|σταθμός λεωφορείων|N||||cities|A1||
+café (n)|καφέ|N||||cities|A1||
+car park (n)|πάρκινγκ αυτοκινήτων|N||||cities|A1||
+cinema (n)|σινεμά|N||||cities|A1||
+information centre (n)|κέντρο πληροφοριών|N||||cities|A1||
+market (n)|αγορά|N||||cities|A1||
+museum (n)|μουσείο|N||||cities|A1||
+near (prep)|κοντά|PREP||||cities|A1||
+next to (prep)|δίπλα σε|PREP||||cities|A1||
+opposite (prep)|αντίθετα|PREP||||cities|A1||
+park (n)|πάρκο|N||||cities|A1||
+train station (n)|σιδηροδρομικός σταθμός|N||||cities|A1||
+bell (n)|καμπάνα|N||||cities|A1||
+Friday (n)|Παρασκευή|N||||cities|A1||
+guidebook (n)|ταξιδιωτικός οδηγός|N||||cities|A1||
+map (n)|χάρτης|N||||cities|A1||
+Monday (n)|Δευτέρα|N||||cities|A1||
+open (adj)|ανοιχτός|ADJ||||cities|A1||
+Saturday (n)|Σάββατο|N||||cities|A1||
+Sunday (n)|Κυριακή|N||||cities|A1||
+Thursday (n)|Πέμπτη|N||||cities|A1||
+timetable (n)|χρονοδιάγραμμα|N||||cities|A1||
+tourist (n)|τουρίστας|N||||cities|A1||
+Tuesday (n)|Τρίτη|N||||cities|A1||
+vertical (adj)|κάθετος|ADJ||||cities|A1||
+Wednesday (n)|Τετάρτη|N||||cities|A1||
+beginning (n)|έναρξη|N||||cities|A1||
+closed (adj)|κλειστός|ADJ||||cities|A1||
+end (n)|τέλος|N||||cities|A1||
+midday (n)|μεσημέρι|N||||cities|A1||
+restaurant (n)|εστιατόριο|N||||cities|A1||
+time zone (n)|ζώνη ώρας|N||||cities|A1||
+cake (n)|κέικ|N||||cities|A1||
+coffee (n)|καφές|N||||cities|A1||
+fruit juice (n)|φρουτοχυμός|N||||cities|A1||
+mineral water (n)|μεταλλικό νερό|N||||cities|A1||
+salad (n)|σαλάτα|N||||cities|A1||
+sandwich (n)|σάντουιτς|N||||cities|A1||
+tea (n)|τσάι|N||||cities|A1||
+large (adj)|μεγάλος|ADJ||||cities|A1||
+art (n)|τέχνη|N||||cities|A1||
+bridge (n)|γέφυρα|N||||cities|A1||
+garden (n)|κήπος|N||||cities|A1||
+lights (n)|φώτα|N||||cities|A1||
+shopping street (n)|εμπορικός δρόμος|N||||cities|A1||
+sign (n)|πινακίδα|N||||cities|A1||
+snack bar (n)|σνακ μπαρ|N||||cities|A1||
+surf (v)|κάνω σερφ|V||||cities|A1||
+symbol (n)|σύμβολο|N||||cities|A1||
+air (n)|αέρας|N||||inventions|A1||
+fly (v)|πετώ|V||||inventions|A1||
+robot (n)|ρομπότ|N||||inventions|A1||
+toy (n)|παιχνίδι|N||||inventions|A1||
+basket (n)|καλάθι|N||||inventions|A1||
+carry (v)|μεταφέρω|V||||inventions|A1||
+cook (v)|μαγειρεύω|V||||inventions|A1||
+drive (v)|οδηγώ|V||||inventions|A1||
+generation (n)|γενιά|N||||inventions|A1||
+intelligent (adj)|έξυπνος|ADJ||||inventions|A1||
+move (v)|κινώ|V||||inventions|A1||
+play (v)|παίζω|V||||inventions|A1||
+ride (v)|ιππεύω|V||||inventions|A1||
+run (v)|τρέχω|V||||inventions|A1||
+see (v)|βλέπω|V||||inventions|A1||
+sing (v)|τραγουδώ|V||||inventions|A1||
+speak (v)|μιλώ|V||||inventions|A1||
+supermarket (n)|σουπερμάρκετ|N||||inventions|A1||
+swim (v)|κολυμπώ|V||||inventions|A1||
+technology (n)|τεχνολογία|N||||inventions|A1||
+backpack (n)|σακίδιο |N||||inventions|A1||
+camera (n)|φωτογραφική μηχανή|N||||inventions|A1||
+headphones (n)|ακουστικά|N||||inventions|A1||
+MP3 player (n)|συσκευή αναπαραγωγής ΜΡ3|N||||inventions|A1||
+video camera (n)|βιντεοκάμερα|N||||inventions|A1||
+webcam (n)|κάμερα web|N||||inventions|A1||
+basic (adj)|βασικός|ADJ||||inventions|A1||
+bowl (n)|μπολ|N||||inventions|A1||
+box (n)|πλαίσιο|N||||inventions|A1||
+cheap (adj)|φτηνός|ADJ||||inventions|A1||
+design (n)|σχέδιο|N||||inventions|A1||
+electric (adj)|ηλεκτρικός|ADJ||||inventions|A1||
+gas (n)|αέριο|N||||inventions|A1||
+heat (v)|θερμαίνω|V||||inventions|A1||
+lid (n)|καπάκι|N||||inventions|A1||
+maximum (n)|μέγιστος|N||||inventions|A1||
+newspaper (n)|εφημερίδα|N||||inventions|A1||
+oven (n)|φούρνος|N||||inventions|A1||
+panel (n)|πάνελ|N||||inventions|A1||
+pot (n)|κατσαρόλα|N||||inventions|A1||
+solar (adj)|ηλιακός|ADJ||||inventions|A1||
+sun (n)|ήλιος|N||||inventions|A1||
+alarm clock (n)|ξυπνητήρι|N||||inventions|A1||
+dollar (n)|δολάριο|N||||inventions|A1||
+euro (n)|ευρώ|N||||inventions|A1||
+expensive (adj)|ακριβός|ADJ||||inventions|A1||
+image (n)|εικόνα|N||||inventions|A1||
+memory stick (n)|στικάκι|N||||inventions|A1||
+pound (n)|λίρα|N||||inventions|A1||
+quality (n)|ποιότητα|N||||inventions|A1||
+radio (n)|ραδιόφωνο|N||||inventions|A1||
+appointment (n)|ραντεβού|N||||inventions|A1||
+busy (adj)|απασχολημένος|ADJ||||inventions|A1||
+diary (n)|ημερολόγιο|N||||inventions|A1||
+gadget (n)|μικροσυσκευή|N||||inventions|A1||
+kitchen (n)|κουζίνα|N||||inventions|A1||
+laptop (n)|φορητός υπολογιστής|N||||inventions|A1||
+microwave (n)|φούρνος μικροκυμάτων|N||||inventions|A1||
+organise (v)|οργανώνω|V||||inventions|A1||
+fan (n)|θαυμαστής|N||||passions|A1||
+football (n)|ποδόσφαιρο|N||||passions|A1||
+international (adj)|διεθνής|ADJ||||passions|A1||
+passionate (adj)|παθιασμένος|ADJ||||passions|A1||
+prize (n)|βραβείο|N||||passions|A1||
+rugby (n)|ράγκμπι|N||||passions|A1||
+team (n)|ομάδα|N||||passions|A1||
+cheese (n)|τυρί|N||||passions|A1||
+chocolate (n)|σοκολάτα|N||||passions|A1||
+competition (n)|διαγωνισμός|N||||passions|A1||
+dish (n)|πιάτο|N||||passions|A1||
+egg (n)|αβγό|N||||passions|A1||
+fish (n)|ψάρι|N||||passions|A1||
+fruit (n)|φρούτο|N||||passions|A1||
+giant (adj)|γιγάντιος|ADJ||||passions|A1||
+meat (n)|κρέας|N||||passions|A1||
+pasta (n)|ζυμαρικά|N||||passions|A1||
+pumpkin pie (n)|κολοκυθόπιτα|N||||passions|A1||
+rice (n)|ρύζι|N||||passions|A1||
+tennis (n)|τένις|N||||passions|A1||
+traditional (adj)|παραδοσιακός|ADJ||||passions|A1||
+vegetable (n)|λαχανικό|N||||passions|A1||
+action (n)|πράξη|N||||passions|A1||
+bird (n)|πουλί|N||||passions|A1||
+comedy (n)|κωμωδία|N||||passions|A1||
+detective (n)|ντετέκτιβ |N||||passions|A1||
+jazz (n)|τζαζ|N||||passions|A1||
+novel (n)|μυθιστόρημα|N||||passions|A1||
+reality (n)|πραγματικότητα|N||||passions|A1||
+wildlife (n)|άγρια ζωή|N||||passions|A1||
+festival (n)|φεστιβάλ|N||||passions|A1||
+pigeon (n)|περιστέρι|N||||passions|A1||
+race (n)|αγώνας|N||||passions|A1||
+tourist attraction (n)|τουριστικό αξιοθέατο|N||||passions|A1||
+boring (adj)|βαρετός|ADJ||||passions|A1||
+horrible (adj)|φριχτός|ADJ||||passions|A1||
+table tennis (n)|επιτραπέζια αντισφαίριση|N||||passions|A1||
+bone (n)|κόκκαλο|N||||passions|A1||
+bread (n)|ψωμί|N||||passions|A1||
+Brie (n)|μπρι|N||||passions|A1||
+Camembert (n)|καμαμπέρ|N||||passions|A1||
+peach (n)|ροδάκινο|N||||passions|A1||
+stall (n)|πάγκος|N||||passions|A1||
+tomato (n)|ντομάτα|N||||passions|A1||
+vegetarian (n)|χορτοφάγος|N||||passions|A1||
+autumn (n)|φθινόπωρο|N||||different lives|A1||
+celebration (n)|γιορτή|N||||different lives|A1||
+month (n)|μήνας|N||||different lives|A1||
+spring (n)|άνοιξη|N||||different lives|A1||
+summer (n)|καλοκαίρι|N||||different lives|A1||
+winter (n)|χειμώνας|N||||different lives|A1||
+reindeer (n)|τάρανδος|N||||different lives|A1||
+study (v)|σπουδάζω|V||||different lives|A1||
+tractor (n)|τρακτέρ|N||||different lives|A1||
+understand (v)|καταλαβαίνω|V||||different lives|A1||
+board (n)|πίνακας|N||||different lives|A1||
+book (n)|βιβλίο|N||||different lives|A1||
+classmate (n)|συμμαθητής|N||||different lives|A1||
+classroom (n)|σχολική αίθουσα|N||||different lives|A1||
+college (n)|κολλέγιο|N||||different lives|A1||
+Maasai (n)|Μασάι|N||||different lives|A1||
+pen (n)|στυλό|N||||different lives|A1||
+pencil (n)|μολύβι|N||||different lives|A1||
+school (n)|σχολείο|N||||different lives|A1||
+student (n)|μαθητής|N||||different lives|A1||
+university (n)|πανεπιστήμιο |N||||different lives|A1||
+unusual (adj)|ασυνήθιστος|ADJ||||different lives|A1||
+village (n)|χωριό|N||||different lives|A1||
+climbing (n)|αναρρίχηση |N||||different lives|A1||
+cloudy (adj)|συννεφιασμένος|ADJ||||different lives|A1||
+cycling (n)|ποδηλασία|N||||different lives|A1||
+golf (n)|γκολφ|N||||different lives|A1||
+photo (n)|φωτογραφία|N||||different lives|A1||
+rainy (adj)|βροχερός|ADJ||||different lives|A1||
+running (n)|τρέξιμο|N||||different lives|A1||
+season (n)|εποχή|N||||different lives|A1||
+skiing (n)|σκι|N||||different lives|A1||
+snowy (adj)|χιονισμένος|ADJ||||different lives|A1||
+sunny (adj)|ηλιόλουστους|ADJ||||different lives|A1||
+wet (adj)|βρεμένος|ADJ||||different lives|A1||
+windy (adj)|ανεμώδης|ADJ||||different lives|A1||
+bored (adj)|βαριεστημένος|ADJ||||different lives|A1||
+hungry (adj)|πεινασμένος|ADJ||||different lives|A1||
+thirsty (adj)|διψασμένος|ADJ||||different lives|A1||
+tired (adj)|κουρασμένος|ADJ||||different lives|A1||
+couple (n)|ζευγάρι|N||||different lives|A1||
+fire (n)|φωτιά|N||||different lives|A1||
+hard (adj)|σκληρός|ADJ||||different lives|A1||
+journey (n)|ταξίδι|N||||different lives|A1||
+sleep (v)|κοιμάμαι|V||||different lives|A1||
+snow (n)|χιόνι|N||||different lives|A1||
+soft (adj)|μαλακός|ADJ||||different lives|A1||
+travel (v)|ταξιδεύω|V||||different lives|A1||
+computer (n)|υπολογιστής|N||||routines|A1||
+helicopter (n)|ελικόπτερο|N||||routines|A1||
+modern (adj)|σύγχρονος|ADJ||||routines|A1||
+breakfast (n)|πρωινό|N||||routines|A1||
+dinner (n)|δείπνο|N||||routines|A1||
+exercise (n)|άσκηση|N||||routines|A1||
+lunch (n)|μεσημεριανό|N||||routines|A1||
+archaeologist (n)|αρχαιολόγος|N||||routines|A1||
+article (n)|άρθρο|N||||routines|A1||
+colleague (n)|συνάδελφος|N||||routines|A1||
+geologist (n)|γεωλόγος|N||||routines|A1||
+laboratory (n)|εργαστήριο|N||||routines|A1||
+lecture (n)|διάλεξη|N||||routines|A1||
+noisy (adj)|θορυβώδης|ADJ||||routines|A1||
+object (n)|αντικείμενο|N||||routines|A1||
+report (n)|αναφορά|N||||routines|A1||
+teach (v)|διδάσκω|V||||routines|A1||
+automatic (adj)|αυτόματος|ADJ||||routines|A1||
+conservation (n)|προστασία|N||||routines|A1||
+crisis (n)|κρίση|N||||routines|A1||
+domestic (adj)|εγχώριος|ADJ||||routines|A1||
+hunt (v)|κυνήγι|V||||routines|A1||
+jaguar (n)|ιαγουάρος|N||||routines|A1||
+leopard (n)|λεοπάρδαλη|N||||routines|A1||
+radio collar (n)|κολάρο-πομπός|N||||routines|A1||
+tiger (n)|τίγρης|N||||routines|A1||
+wild (adj)|άγριος|ADJ||||routines|A1||
+call (v)|καλώ|V||||routines|A1||
+drink (v)|πίνω|V||||routines|A1||
+eat (v)|τρώω|V||||routines|A1||
+gentle (adj)|τρυφερός|ADJ||||routines|A1||
+greet (v)|χαιρετώ|V||||routines|A1||
+hand (n)|χέρι|N||||routines|A1||
+have a bath (v)|κάνω μπάνιο|V||||routines|A1||
+identify (v)|αναγνωρίζω|V||||routines|A1||
+individual (n)|μεμονωμένος|N||||routines|A1||
+jeep (n)|τζιπ|N||||routines|A1||
+lie down (phr v)|ξαπλώνω|PHR V||||routines|A1||
+trunk (n)|προβοσκίδα|N||||routines|A1||
+flying (n)|πτήση|N||||travel|A1||
+interesting (adj)|ενδιαφέρων|ADJ||||travel|A1||
+plane (n)|αεροπλάνο|N||||travel|A1||
+train (n)|τρένο |N||||travel|A1||
+bag (n)|τσάντα|N||||travel|A1||
+boot (n)|μπότα|N||||travel|A1||
+coat (n)|παλτό|N||||travel|A1||
+dress (n)|φόρεμα|N||||travel|A1||
+hat (n)|καπέλο|N||||travel|A1||
+jacket (n)|σακάκι|N||||travel|A1||
+jeans (n)|τζιν|N||||travel|A1||
+jumper (n)|πουλόβερ|N||||travel|A1||
+pocket (n)|τσέπη|N||||travel|A1||
+sandals (n)|σανδάλια|N||||travel|A1||
+scarf (n)|κασκόλ|N||||travel|A1||
+shirt (n)|πουκάμισο|N||||travel|A1||
+shoe (n)|παπούτσι|N||||travel|A1||
+shorts (n)|σορτς|N||||travel|A1||
+skirt (n)|φούστα|N||||travel|A1||
+suitcase (n)|βαλίτσα|N||||travel|A1||
+top (n)|μπλούζα|N||||travel|A1||
+trousers (n)|παντελόνι|N||||travel|A1||
+T-shirt (n)|μπλουζάκι μακό|N||||travel|A1||
+armchair (n)|πολυθρόνα|N||||travel|A1||
+bed (n)|κρεβάτι|N||||travel|A1||
+chair (n)|καρέκλα|N||||travel|A1||
+cheap (adj)|φτηνός|ADJ||||travel|A1||
+comfortable (adj)|άνετος|ADJ||||travel|A1||
+desk (n)|γραφείο|N||||travel|A1||
+fridge (n)|ψυγείο|N||||travel|A1||
+hostel (n)|ξενώνας|N||||travel|A1||
+lamp (n)|λάμπα|N||||travel|A1||
+shower (n)|ντους|N||||travel|A1||
+sofa (n)|καναπές|N||||travel|A1||
+table (n)|τραπέζι|N||||travel|A1||
+TV (n)|τηλεόραση|N||||travel|A1||
+wardrobe (n)|γκαρνταρόμπα|N||||travel|A1||
+adventurous (adj)|περιπετειώδης|ADJ||||travel|A1||
+diving (n)|κατάδυση|N||||travel|A1||
+hiking (n)|πεζοπορία|N||||travel|A1||
+hitch-hike (v)|ταξιδεύω με οτοστόπ|V||||travel|A1||
+horse riding (n)|ιππασία|N||||travel|A1||
+in advance (exp)|εκ των προτέρων |EXP||||travel|A1||
+lifetime (n)|ολόκληρη ζωή|N||||travel|A1||
+opera (n)|όπερα|N||||travel|A1||
+option (n)|επιλογή|N||||travel|A1||
+rail (n)|σιδηροδρομικός|N||||travel|A1||
+sightseeing (n)|περιήγηση στα αξιοθέατα |N||||travel|A1||
+view (n)|θέα|N||||travel|A1||
+alarm (n)|ξυπνητήρι|N||||travel|A1||
+desk (n)|γραφείο|N||||travel|A1||
+meal (n)|γεύμα|N||||travel|A1||
+menu (n)|μενού|N||||travel|A1||
+ancient (adj)|αρχαίος|ADJ||||travel|A1||
+bang (n)|μπανγκ|N||||travel|A1||
+canoe (n)|κανό|N||||travel|A1||
+crash (v)|τρακάρω|V||||travel|A1||
+donkey (n)|γάιδαρος|N||||travel|A1||
+gold (n)|χρυσάφι|N||||travel|A1||
+goldmine (n)|χρυσορυχείο|N||||travel|A1||
+landmine (n)|νάρκη|N||||travel|A1||
+llama (n)|λάμα|N||||travel|A1||
+loud (adj)|δυνατός|ADJ||||travel|A1||
+plate (n)|πιάτο|N||||travel|A1||
+sand dune (n)|αμμόλοφος|N||||travel|A1||
+sheep (n)|πρόβατο|N||||travel|A1||
+track (n)|μονοπάτι|N||||travel|A1||
+digital (adj)|ψηφιακός|ADJ||||history|A1||
+disc (n)|δίσκος|N||||history|A1||
+history (n)|ιστορία|N||||history|A1||
+invention (n)|εφεύρεση |N||||history|A1||
+recorder (n)|καταγραφικό|N||||history|A1||
+television (n)|τηλεόραση|N||||history|A1||
+test (n)|τεστ|N||||history|A1||
+video (n)|βίντεο|N||||history|A1||
+captain (n)|καπετάνιος|N||||history|A1||
+expedition (n)|αποστολή|N||||history|A1||
+North Pole (n)|Βόρειος Πόλος|N||||history|A1||
+Portuguese (adj)|Πορτογάλος|ADJ||||history|A1||
+space (n)|διάστημα|N||||history|A1||
+successful (adj)|επιτυχημένος|ADJ||||history|A1||
+basketball (n)|καλαθοσφαίριση |N||||history|A1||
+champion (n)|πρωταθλητής|N||||history|A1||
+friendly (adj)|φιλικός|ADJ||||history|A1||
+funny (adj)|αστείος|ADJ||||history|A1||
+hero (n)|ήρωας|N||||history|A1||
+nature (n)|φύση|N||||history|A1||
+sportsman (n)|αθλητής|N||||history|A1||
+ago (adv)|πριν|ADV||||history|A1||
+celebrity (n)|διασημότητα|N||||history|A1||
+empire (n)|αυτοκρατορία|N||||history|A1||
+land (n)|γη |N||||history|A1||
+leader (n)|ηγέτης|N||||history|A1||
+now (adv)|τώρα|ADV||||history|A1||
+president (n)|πρόεδρος|N||||history|A1||
+prisoner (n)|αιχμάλωτος|N||||history|A1||
+today (adv)|σήμερα|ADV||||history|A1||
+war (n)|πόλεμος|N||||history|A1||
+late (adj)|αργά|ADJ||||history|A1||
+seat (n)|θέση|N||||history|A1||
+sorry (adj)|συγγνώμη|ADJ||||history|A1||
+worry (v)|ανησυχώ|V||||history|A1||
+astronaut (n)|αστροναύτης|N||||history|A1||
+die (v)|πεθαίνω|V||||history|A1||
+goal (n)|στόχος|N||||history|A1||
+Mercury (n)|Ερμής|N||||history|A1||
+orbit (v)|τροχιά|V||||history|A1||
+programme (n)|πρόγραμμα|N||||history|A1||
+satellite (n)|δορυφόρος|N||||history|A1||
+shuttle (n)|διαστημικό λεωφορείο |N||||history|A1||
+speech (n)|λόγος|N||||history|A1||
+Sputnik (n)|Σπούτνικ|N||||history|A1||
+success (n)|επιτυχία|N||||history|A1||
+tragedy (n)|τραγωδία|N||||history|A1||
+arrive (v)|φτάνω|V||||history|A1||
+discover (v)|ανακαλύπτω|V||||history|A1||
+leave (v)|αναχωρώ|V||||history|A1||
+arrow (n)|βέλος|N||||history|A1||
+body (n)|σώμα|N||||history|A1||
+discovery (n)|ανακάλυψη|N||||history|A1||
+investigation (n)|έρευνα|N||||history|A1||
+kill (v)|σκοτώνω|V||||history|A1||
+knife (n)|μαχαίρι|N||||history|A1||
+mountaineer (n)|ορειβάτης|N||||history|A1||
+mystery (n)|μυστήριο|N||||history|A1||
+scientific (adj)|επιστημονικός|ADJ||||history|A1||
+adventure (n)|περιπέτεια|N||||history|A1||
+dangerous (adj)|επικίνδυνος|ADJ||||history|A1||
+film (v)|ταινία|V||||history|A1||
+pool (n)|πισίνα|N||||history|A1||
+watch (v)|παρακολουθώ|V||||history|A1||
+crazy (adj)|τρελός|ADJ||||history|A1||
+cut (v)|κόβω|V||||history|A1||
+deep (adj)|βαθύς|ADJ||||history|A1||
+species (n)|είδος|N||||history|A1||
+traffic (n)|κίνηση|N||||history|A1||
+delicious (adj)|νόστιμος|ADJ||||history|A1||
+last (adj)|τελευταίος|ADJ||||history|A1||
+pay (v)|πληρώνω|V||||history|A1||
+shark (n)|καρχαρίας|N||||history|A1||
+acidic (adj)|όξινος|ADJ||||history|A1||
+balloon (n)|μπαλόνι|N||||history|A1||
+chemist (n)|χημικός|N||||history|A1||
+close (adj)|κλειστός|ADJ||||history|A1||
+earthy (adj)|γήινος |ADJ||||history|A1||
+experience (v)|εμπειρία|V||||history|A1||
+flower (n)|λουλούδι|N||||history|A1||
+juicy (adj)|ζουμερός|ADJ||||history|A1||
+man-made (adj)|χειροποίητο|ADJ||||history|A1||
+perfume (n)|άρωμα|N||||history|A1||
+scent (n)|μυρωδιά |N||||history|A1||
+stephanotis (n)|στεφανωτή|N||||history|A1||
+taste (v)|γεύομαι|V||||history|A1||
+watery (adj)|νερουλός|ADJ||||history|A1||
+factory (n)|εργοστάσιο|N||||the weekend|A1||
+weekend (n)|σαββατοκύριακο|N||||the weekend|A1||
+bath (n)|μπάνιο|N||||the weekend|A1||
+bathe (v)|πλένομαι|V||||the weekend|A1||
+bathroom (n)|λουτρό|N||||the weekend|A1||
+bedroom (n)|κρεβατοκάμαρα|N||||the weekend|A1||
+cooking (n)|μαγειρική|N||||the weekend|A1||
+dining room (n)|τραπεζαρία|N||||the weekend|A1||
+ironing (n)|σιδέρωμα|N||||the weekend|A1||
+living room (n)|καθιστικό|N||||the weekend|A1||
+mat (n)|χαλάκι|N||||the weekend|A1||
+motorbike (n)|μοτοποδήλατο|N||||the weekend|A1||
+read (v)|διαβάζω|V||||the weekend|A1||
+sit (v)|κάθομαι|V||||the weekend|A1||
+smile (v)|χαμογελάω|V||||the weekend|A1||
+talk (v)|μιλάω|V||||the weekend|A1||
+toilet (n)|τουαλέτα|N||||the weekend|A1||
+wash (v)|πλένομαι|V||||the weekend|A1||
+wear (v)|φοράω|V||||the weekend|A1||
+folk (n)|φολκ|N||||the weekend|A1||
+free (adj)|ελεύθερος|ADJ||||the weekend|A1||
+sale (n)|πώληση |N||||the weekend|A1||
+shopping (n)|ψώνια|N||||the weekend|A1||
+stuff (n)|πράγματα|N||||the weekend|A1||
+trip (n)|ταξίδι|N||||the weekend|A1||
+builder (n)|χτίστης|N||||the weekend|A1||
+community (n)|κοινότητα |N||||the weekend|A1||
+dream house (n)|το σπίτι των ονείρων σας|N||||the weekend|A1||
+fun (adj)|αστείος|ADJ||||the weekend|A1||
+organisation (n)|οργανισμός|N||||the weekend|A1||
+professional (adj)|επαγγελματικός|ADJ||||the weekend|A1||
+project (n)|έργο|N||||the weekend|A1||
+roof (n)|στέγη|N||||the weekend|A1||
+tornado (n)|ανεμοστρόβιλος|N||||the weekend|A1||
+tornado-resistant (adj)|ανθεκτικό στους ανεμοστρόβιλους|ADJ||||the weekend|A1||
+voluntary (adj)|εθελοντικός|ADJ||||the weekend|A1||
+volunteer (n)|εθελοντής|N||||the weekend|A1||
+adult (n)|ενήλικας|N||||the weekend|A1||
+brochure (n)|φυλλάδιο|N||||the weekend|A1||
+castle (n)|κάστρο|N||||the weekend|A1||
+court (n)|γήπεδο|N||||the weekend|A1||
+exhibition (n)|έκθεση|N||||the weekend|A1||
+finish (v)|τελειώνω|V||||the weekend|A1||
+return ticket (n)|εισιτήριο επιστροφής|N||||the weekend|A1||
+special (adj)|ειδικός|ADJ||||the weekend|A1||
+concert (n)|συναυλία|N||||the weekend|A1||
+flying fish (n)|ιπτάμενα ψάρια|N||||the weekend|A1||
+group (n)|ομάδα|N||||the weekend|A1||
+guitar (n)|κιθάρα|N||||the weekend|A1||
+main (adj)|κύριος|ADJ||||the weekend|A1||
+musician (n)|μουσικός|N||||the weekend|A1||
+painter (n)|ζωγράφος|N||||the weekend|A1||
+prepare (v)|προετοιμάζω|V||||the weekend|A1||
+rest (v)|ξεκουράζομαι|V||||the weekend|A1||
+song (n)|τραγούδι |N||||the weekend|A1||
+wife (n)|σύζυγος|N||||people|A2||
+aunt (n)|θεία|N||||people|A2||
+company (n)|εταιρεία|N||||people|A2||
+grandparent (n)|παππούς / γιαγιά|N||||people|A2||
+half brother (n)|ετεροθαλής αδερφός|N||||people|A2||
+international (adj)|διεθνής|ADJ||||people|A2||
+mother-in-law (n)|πεθερά|N||||people|A2||
+nephew (n)|ανιψιός|N||||people|A2||
+niece (n)|ανιψιά|N||||people|A2||
+normal (adj)|συνηθισμένος|ADJ||||people|A2||
+similar (adj)|παρόμοιος|ADJ||||people|A2||
+step brother (n)|θετός αδερφός|N||||people|A2||
+uncle (n)|θείος|N||||people|A2||
+were (v)|ήμαστε, ήταν|V||||people|A2||
+agriculture (n)|γεωργία|N||||people|A2||
+average (adj)|μέσος|ADJ||||people|A2||
+countryside (n)|ύπαιθρος|N||||people|A2||
+equal (v)|ίσος|V||||people|A2||
+have (v)|έχω|V||||people|A2||
+industry (n)|κλάδος|N||||people|A2||
+language (n)|γλώσσα|N||||people|A2||
+life expectancy (n)|προσδόκιμο ζωής|N||||people|A2||
+live (v)|ζω|V||||people|A2||
+manufacturing (n)|κατασκευές|N||||people|A2||
+population (n)|πληθυσμός|N||||people|A2||
+production (n)|παραγωγή|N||||people|A2||
+religion (n)|θρησκεία|N||||people|A2||
+use (v)|χρησιμοποιώ|V||||people|A2||
+work (v)|εργάζομαι|V||||people|A2||
+conference (n)|συνέδριο|N||||people|A2||
+early (adj)|νωρίς|ADJ||||people|A2||
+manager (n)|υπεύθυνος|N||||people|A2||
+surname (n)|επώνυμο|N||||people|A2||
+introduce (v)|συστήνω|V||||people|A2||
+bit (n)|λίγο|N||||people|A2||
+compare (v)|συγκρίνω|V||||people|A2||
+correct (adj)|σωστός|ADJ||||people|A2||
+count (v)|μετρώ|V||||people|A2||
+star (n)|άστρο|N||||people|A2||
+takes (v)		|διαρκεί|V||||people|A2||
+ball (n)|μπάλα|N||||possessions|A2||
+plastic (n)|πλαστικό|N||||possessions|A2||
+possession (n)|περιουσιακό στοιχείο|N||||possessions|A2||
+bottom (n)|κάτω μέρος|N||||possessions|A2||
+compass (n)|πυξίδα|N||||possessions|A2||
+first-aid kit (n)|κουτί πρώτων βοηθειών|N||||possessions|A2||
+gloves (n)|γάντια|N||||possessions|A2||
+important (adj)|σημαντικός|ADJ||||possessions|A2||
+mobile phone (n)|κινητό τηλέφωνο|N||||possessions|A2||
+rucksack (n)|σακίδιο πλάτης|N||||possessions|A2||
+torch (n)|φακός|N||||possessions|A2||
+apartment (n)|διαμέρισμα|N||||possessions|A2||
+difference (n)|διαφορά|N||||possessions|A2||
+furniture (n)|έπιπλο|N||||possessions|A2||
+picture (n)|κάδρο|N||||possessions|A2||
+style (n)|στυλ|N||||possessions|A2||
+bonnet (n)|καπό|N||||possessions|A2||
+bumper (n)|προφυλακτήρας|N||||possessions|A2||
+engine (n)|κινητήρας|N||||possessions|A2||
+global (adj)|παγκόσμιος|ADJ||||possessions|A2||
+headquarters (n)|έδρα εταιρείας|N||||possessions|A2||
+mirror (n)|καθρέφτης|N||||possessions|A2||
+nationality (n)|εθνικότητα|N||||possessions|A2||
+producer (n)|παραγωγός|N||||possessions|A2||
+product (n)|προϊόν|N||||possessions|A2||
+wheel (n)|τροχός|N||||possessions|A2||
+window (n)|παράθυρο|N||||possessions|A2||
+help (v)|βοηθώ|V||||possessions|A2||
+medium (adj)|μεσαίος|ADJ||||possessions|A2||
+size (n)|μέγεθος|N||||possessions|A2||
+tennis ball (n)|μπαλάκι του τένις|N||||possessions|A2||
+mine (v)|ορυχείο|V||||possessions|A2||
+miner (n)|εργάτης ορυχείου|N||||possessions|A2||
+opal (n)|οπάλιο|N||||possessions|A2||
+tunnel (n)|σήραγγα|N||||possessions|A2||
+worth (adj)|έχω αξία|ADJ||||possessions|A2||
+worthless (adj)|χωρίς αξία|ADJ||||possessions|A2||
+day (n)|ημέρα|N||||places|A2||
+midnight (n)|μεσάνυχτα|N||||places|A2||
+night (n)|νύχτα|N||||places|A2||
+popular (adj)|δημοφιλής|ADJ||||places|A2||
+bicycle (n)|ποδήλατο|N||||places|A2||
+break (n)|διάλειμμα|N||||places|A2||
+centre (n)|κέντρο|N||||places|A2||
+clean (adj)|καθαρός|ADJ||||places|A2||
+crowded (adj)|συνωστισμένος|ADJ||||places|A2||
+gallery (n)|γκαλερί|N||||places|A2||
+lunchtime (n)|μεσημεριανό|N||||places|A2||
+pollution (n)|ρύπανση|N||||places|A2||
+problem (n)|πρόβλημα|N||||places|A2||
+quiet (adj)|ήσυχος|ADJ||||places|A2||
+theatre (n)|θέατρο|N||||places|A2||
+traffic (n)|κίνηση|N||||places|A2||
+transport (n)|μετακίνηση|N||||places|A2||
+zone (n)|ζώνη|N||||places|A2||
+accountant (n)|λογιστής|N||||places|A2||
+pilot (n)|πιλότος|N||||places|A2||
+sailor (n)|ναυτικός|N||||places|A2||
+waiter (n)|σερβιτόρος|N||||places|A2||
+medicine (n)|ιατρική|N||||places|A2||
+native (adj)|μητρική (γλώσσα)|ADJ||||places|A2||
+over (adv)|περισσότερο από|ADN||||places|A2||
+speaker (n)|ομιλητής|N||||places|A2||
+aquarium (n)|ενυδρείο|N||||places|A2||
+straight (adv)|ευθεία|ADN||||places|A2||
+across (prep)|απέναντι|PREP||||places|A2||
+corner (n)|γωνία|N||||places|A2||
+medical centre (n)|ιατρικό κέντρο|N||||places|A2||
+roundabout (n)|κυκλική διασταύρωση|N||||places|A2||
+seesaw (n)|τραμπάλα|N||||places|A2||
+slide (n)|τσουλήθρα|N||||places|A2||
+swing (n)|κούνια|N||||places|A2||
+fishing (n)|ψάρεμα|N||||free time|A2||
+free time (adj)|ελεύθερος χρόνος|ADJ||||free time|A2||
+gym (n)|γυμναστήριο|N||||free time|A2||
+relaxing (adj)|χαλάρωση|ADJ||||free time|A2||
+activity (n)|δραστηριότητα|N||||free time|A2||
+actor (n)|ηθοποιός|N||||free time|A2||
+day off (n)|ρεπό|N||||free time|A2||
+gardening (n)|κηπουρική|N||||free time|A2||
+harp (n)|άρπα|N||||free time|A2||
+identical (adj)|πανομοιότυπος|ADJ||||free time|A2||
+player (n)|παίκτης|N||||free time|A2||
+swimming (n)|κολύμβηση|N||||free time|A2||
+twins (n)|δίδυμα|N||||free time|A2||
+walking (n)|περπάτημα|N||||free time|A2||
+write (v)|γράφω|V||||free time|A2||
+explain (v)|εξηγώ|V||||free time|A2||
+hobby (n)|χόμπι|N||||free time|A2||
+impact (n)|επίδραση|N||||free time|A2||
+perfect (adj)|τέλειος|ADJ||||free time|A2||
+photography (n)|φωτογραφία|N||||free time|A2||
+shine (v)|λάμπω|V||||free time|A2||
+snow mobile (n)|όχημα χιονιού|N||||free time|A2||
+spend (v)|περνώ (χρόνο)|V||||free time|A2||
+week (n)|εβδομάδα|N||||free time|A2||
+adrenaline (n)|αδρεναλίνη|N||||free time|A2||
+baseball (n)|μπέιζμπολ|N||||free time|A2||
+boxing (n)|μποξ|N||||free time|A2||
+cliff diving (n)|πτώση από γκρεμό|N||||free time|A2||
+cricket (n)|κρίκετ|N||||free time|A2||
+distance (n)|απόσταση|N||||free time|A2||
+exciting (adj)|συναρπαστικός|ADJ||||free time|A2||
+extreme sport (n)|ακραίο σπορ|N||||free time|A2||
+fast (adv)|γρήγορος|ADV||||free time|A2||
+highline (n)|ισορροπία σε τεντωμένο σκοινί|N||||free time|A2||
+ice hockey (n)|χόκεϊ επί πάγου|N||||free time|A2||
+jump (v)|πηδώ|V||||free time|A2||
+landscape (n)|τοπίο|N||||free time|A2||
+mountain biker (n)|ποδηλάτης βουνού|N||||free time|A2||
+paragliding (n)|παρά πέντε|N||||free time|A2||
+peaceful (adj)|γαλήνιος|ADJ||||free time|A2||
+sailing (n)|ιστιοπλοΐα|N||||free time|A2||
+slow (adj)|αργός|ADJ||||free time|A2||
+surfing (n)|κυματοδρομία|N||||free time|A2||
+enthusiastic (adj)|ενθουσιώδης|ADJ||||free time|A2||
+information (n)|πληροφορίες|N||||free time|A2||
+journalist (n)|δημοσιογράφος|N||||free time|A2||
+orphan (n)|ορφανό|N||||free time|A2||
+allotment (n)|κτήμα που έχει παραχωρηθεί με κλήρο|N||||free time|A2||
+dig (v)|σκάβω|V||||free time|A2||
+easy (adj)|εύκολος|ADJ||||free time|A2||
+location (n)|τοποθεσία|N||||free time|A2||
+refreshed (adj)|αναζωογονημένος|ADJ||||free time|A2||
+scenery (n)|τοπίο|N||||free time|A2||
+snowboarding (n)|χιονοσανίδα|N||||free time|A2||
+soil (n)|έδαφος|N||||free time|A2||
+ukelele (n)|γιουκαλίλι|N||||free time|A2||
+love (v)|αγαπώ|V||||food|A2||
+real (adj)|πραγματικός|ADJ||||food|A2||
+sauce (n)|σάλτσα|N||||food|A2||
+smell (v)|μυρίζω|V||||food|A2||
+visit (v)|επισκέπτομαι|V||||food|A2||
+carrot (n)|καρότο|N||||food|A2||
+chicken (n)|κοτόπουλο|N||||food|A2||
+chip (n)|πατατάκι|N||||food|A2||
+cupboard (n)|ντουλάπι κουζίνας|N||||food|A2||
+juice (n)|χυμός|N||||food|A2||
+lamb (n)|αρνί|N||||food|A2||
+lemon (n)|λεμόνι|N||||food|A2||
+lentil (n)|φακή|N||||food|A2||
+nut (n)|ξηρός καρπός|N||||food|A2||
+olive oil (n)|ελαιόλαδο|N||||food|A2||
+onion (n)|κρεμμύδι|N||||food|A2||
+orange (n)|πορτοκάλι|N||||food|A2||
+pepper (n)|πιπεριά|N||||food|A2||
+potato (n)|πατάτα|N||||food|A2||
+prawn (n)|γαρίδα|N||||food|A2||
+raisin (n)|σταφίδα|N||||food|A2||
+recipe (n)|συνταγή|N||||food|A2||
+salt (n)|αλάτι|N||||food|A2||
+satay (n)|σατάι|N||||food|A2||
+seasoning (n)|καρύκευμα|N||||food|A2||
+atmosphere (n)|ατμόσφαιρα|N||||food|A2||
+banana (n)|μπανάνα|N||||food|A2||
+early (adv)|νωρίς|ADV||||food|A2||
+everyday (adj)|καθημερινός|ADJ||||food|A2||
+fresh (adj)|φρέσκος|ADJ||||food|A2||
+live (adj)|ζωντανός|ADJ||||food|A2||
+lover (n)|λάτρης|N||||food|A2||
+seafood (n)|θαλασσινά|N||||food|A2||
+shopper (n)|αγοραστής|N||||food|A2||
+upstairs (adv)|στον επάνω όροφο|ADN||||food|A2||
+corridor (n)|διάδρομος|N||||food|A2||
+disease (n)|νόσος|N||||food|A2||
+doorway (n)|πόρτα εισόδου|N||||food|A2||
+flood (n)|πλημμύρα|N||||food|A2||
+future (n)|μέλλον|N||||food|A2||
+grow (v)|φυτρώνω, καλλιεργώ|V||||food|A2||
+huge (adj)|τεράστιος|ADJ||||food|A2||
+plant (n)|φυτό|N||||food|A2||
+plant (v)|φυτεύω|V||||food|A2||
+seed (n)|σπόρος|N||||food|A2||
+store (v)|αποθηκεύω|V||||food|A2||
+type (n)|τύπος|N||||food|A2||
+variety (n)|ποικιλία|N||||food|A2||
+vault (n)|θησαυροφυλάκιο|N||||food|A2||
+sparkling (adj)|ανθρακούχο (νερό)|ADJ||||food|A2||
+garlic (n)|σκόρδο|N||||food|A2||
+starter (n)|ορεκτικό|N||||food|A2||
+special (n)|πιάτο ημέρας|N||||food|A2||
+dessert (n)|επιδόρπιο|N||||food|A2||
+bill (n)|λογαριασμός|N||||food|A2||
+average (n)|μέσος|N||||food|A2||
+block (n)|συστατικό|N||||food|A2||
+career (n)|καριέρα|N||||food|A2||
+chapter (n)|κεφάλαιο|N||||food|A2||
+class (n)|κατηγορία|N||||food|A2||
+gelato (n)|παγωτό|N||||food|A2||
+ice cream parlour (n)|παγωτατζίδικο|N||||food|A2||
+import (n)|εισάγω|N||||food|A2||
+machine (n)|μηχάνημα|N||||food|A2||
+management (n)|διοίκηση|N||||food|A2||
+marketing (n)|μάρκετινγκ|N||||food|A2||
+profit (n)|κέρδος|N||||food|A2||
+subject (n)|θέμα|N||||food|A2||
+textile (n)|ύφασμα|N||||food|A2||
+area (n)|περιοχή|N||||money|A2||
+bagpiper (n)|παίκτης γκάιντας|N||||money|A2||
+busker (n)|μουσικός δρόμου|N||||money|A2||
+central (adj)|κεντρικός|ADJ||||money|A2||
+coin (n)|κέρμα|N||||money|A2||
+currency exchange (n)|συνάλλαγμα|N||||money|A2||
+electronics (n)|ηλεκτρονικές συσκευές|N||||money|A2||
+formal (adj)|επίσημος|ADJ||||money|A2||
+king (n)|βασιλιάς|N||||money|A2||
+queen (n)|βασίλισσα|N||||money|A2||
+note (n)|χαρτονόμισμα|N||||money|A2||
+surprisingly (adv)|παραδόξως|ADN||||money|A2||
+unfortunately (adv)|δυστυχώς|ADN||||money|A2||
+Anglo-Saxons (n)|Αγγλοσάξονες|N||||money|A2||
+interview (v)|συνέντευξη|V||||money|A2||
+jewellery (n)|κοσμήματα|N||||money|A2||
+metal work (n)|μεταλλικό αντικείμενο|N||||money|A2||
+priceless (adj)|ανεκτίμητος|ADJ||||money|A2||
+silver (n)|ασήμι|N||||money|A2||
+value (n)|αξία|N||||money|A2||
+visitor (n)|επισκέπτης|N||||money|A2||
+bank card (n)|τραπεζική κάρτα|N||||money|A2||
+cash machine (n)|μηχάνημα ανάληψης μετρητών|N||||money|A2||
+cheque (n)|επιταγή|N||||money|A2||
+credit card (n)|πιστωτική κάρτα|N||||money|A2||
+message (n)|μήνυμα|N||||money|A2||
+neck (n)|λαιμός|N||||money|A2||
+practical (adj)|πρακτικός|ADJ||||money|A2||
+seashell (n)|όστρακο|N||||money|A2||
+borrow (v)|δανείζομαι|V||||money|A2||
+charity (n)|φιλανθρωπικό ίδρυμα|N||||money|A2||
+collect (v)|συγκεντρώνω|V||||money|A2||
+hospital (n)|νοσοκομείο|N||||money|A2||
+lend (v)|δανείζω|V||||money|A2||
+bracelet (n)|βραχιόλι|N||||money|A2||
+crown (n)|στέμμα|N||||money|A2||
+palace (n)|παλάτι|N||||money|A2||
+region (n)|περιοχή|N||||money|A2||
+route (n)|δρόμος|N||||money|A2||
+statue (n)|άγαλμα|N||||money|A2||
+terrible (adj)|απαίσιος|ADJ||||money|A2||
+treasure (n)|θησαυρός|N||||money|A2||
+European (n)|Ευρωπαίος|N||||journeys|A2||
+final (adj)|τελικός|ADJ||||journeys|A2||
+ship (n)|πλοίο|N||||journeys|A2||
+storm (n)|καταιγίδα|N||||journeys|A2||
+weather (n)|καιρός|N||||journeys|A2||
+aeroplane (n)|αεροπλάνο|N||||journeys|A2||
+flight (n)|πτήση|N||||journeys|A2||
+historian (n)|ιστορικός|N||||journeys|A2||
+incredible (adj)|απίθανος|ADJ||||journeys|A2||
+land (v)|προσγειώνομαι|V||||journeys|A2||
+mechanical (adj)|μηχανικός|ADJ||||journeys|A2||
+studio (n)|στούντιο|N||||journeys|A2||
+take off (phr v) |απογειώνομαι|PHR V||||journeys|A2||
+win (v)|κερδίζω|V||||journeys|A2||
+calf (n)|νεογνό (θηλαστικού)|N||||journeys|A2||
+climb (v)|σκαρφαλώνω|V||||journeys|A2||
+fast (adj)|γρήγορος|ADJ||||journeys|A2||
+female (adj)|θηλυκός|ADJ||||journeys|A2||
+female (n)|θηλυκό|N||||journeys|A2||
+frog (n)|βάτραχος|N||||journeys|A2||
+lay (v)|γεννώ αβγά|V||||journeys|A2||
+male (adj)|αρσενικός|ADJ||||journeys|A2||
+male (n)|αρσενικό|N||||journeys|A2||
+migration (n)|μετανάστευση|N||||journeys|A2||
+tree (n)|δέντρο|N||||journeys|A2||
+turtle (n)|χελώνα|N||||journeys|A2||
+cloud (n)|σύννεφο|N||||journeys|A2||
+lightning (n)|αστραπή|N||||journeys|A2||
+moon (n)|φεγγάρι|N||||journeys|A2||
+official (adj)|επίσημος|ADJ||||journeys|A2||
+planet (n)|πλανήτης|N||||journeys|A2||
+ring (n)|δακτύλιος|N||||journeys|A2||
+solar system (n)|ηλιακό σύστημα|N||||journeys|A2||
+spacecraft (n)|διαστημόπλοιο|N||||journeys|A2||
+volcano (n)|ηφαίστειο|N||||journeys|A2||
+wind (n)|άνεμος|N||||journeys|A2||
+flight (n)|πτήση|N||||journeys|A2||
+tiring (adj)|κουραστικός|ADJ||||journeys|A2||
+useful (adj)|χρήσιμος|ADJ||||journeys|A2||
+candidate (n)|υποψήφιος|N||||journeys|A2||
+experiment (n)|πείραμα|N||||journeys|A2||
+launch (v)|εκτοξεύω|V||||journeys|A2||
+physician (n)|γιατρός|N||||journeys|A2||
+physics (n)|Φυσική|N||||journeys|A2||
+colourful (adj)|πολύχρωμος|ADJ||||appearance|A2||
+make-up (n)|ζωγραφική προσώπου|N||||appearance|A2||
+dance (v)|χορεύω|V||||appearance|A2||
+cheek (n) |μάγουλο|N||||appearance|A2||
+chin (n)|πιγούνι|N||||appearance|A2||
+dancer (n)|χορευτής|N||||appearance|A2||
+eyebrow (n)|φρύδι|N||||appearance|A2||
+handsome (adj)|όμορφος|ADJ||||appearance|A2||
+lip (n)|χείλος|N||||appearance|A2||
+mask (n)|μάσκα|N||||appearance|A2||
+photograph (n)|φωτογραφία|N||||appearance|A2||
+ribbon (n)|κορδέλα|N||||appearance|A2||
+string (n)|κορδόνι|N||||appearance|A2||
+tall (adj)|ψηλός|ADJ||||appearance|A2||
+tribesman (n)|μέλος φυλής|N||||appearance|A2||
+ugly (adj)|άσχημος|ADJ||||appearance|A2||
+belt (n)|ζώνη|N||||appearance|A2||
+client (n)|πελάτης|N||||appearance|A2||
+clothing (n)|ρούχα|N||||appearance|A2||
+line (n)|γραμμή|N||||appearance|A2||
+magazine (n)|περιοδικό|N||||appearance|A2||
+socks (n)|κάλτσες|N||||appearance|A2||
+suit (n)|κουστούμι|N||||appearance|A2||
+tie (n)|γραβάτα|N||||appearance|A2||
+uniform (n)|φόρμα|N||||appearance|A2||
+ankle (n)|αστράγαλος|N||||appearance|A2||
+back (n)|πλάτη|N||||appearance|A2||
+chest (n)|στέρνο|N||||appearance|A2||
+connection (n)|σχέση|N||||appearance|A2||
+criminal (n)|εγκληματίας|N||||appearance|A2||
+customer (n)|πελάτης|N||||appearance|A2||
+expert (n)|ειδικός|N||||appearance|A2||
+feature (n)|στοιχείο|N||||appearance|A2||
+foot (n)|πόδι|N||||appearance|A2||
+haircut (n)|κούρεμα|N||||appearance|A2||
+knee (n)|γόνατο|N||||appearance|A2||
+lawyer (n)|δικηγόρος|N||||appearance|A2||
+leg (n)|γάμπα|N||||appearance|A2||
+natural (adj)|φυσικός|ADJ||||appearance|A2||
+negative (adj)|αρνητικός|ADJ||||appearance|A2||
+permanent (adj)|μόνιμος|ADJ||||appearance|A2||
+religious (adj)|θρησκευτικός|ADJ||||appearance|A2||
+shoulder (n)|ώμος|N||||appearance|A2||
+society (n)|κοινωνία|N||||appearance|A2||
+tattoo (n)|τατουάζ|N||||appearance|A2||
+closely (adv)|από κοντά|ADV||||appearance|A2||
+listen (v)|ακούω|V||||appearance|A2||
+often (adv)|συχνά|ADV||||appearance|A2||
+sad (adj)|θλιμμένος|ADJ||||appearance|A2||
+stand (v)|στέκομαι|V||||appearance|A2||
+subway (n)|μετρό|N||||appearance|A2||
+think (v)|σκέφτομαι|V||||appearance|A2||
+carnival (n)|καρναβάλι|N||||appearance|A2||
+clown (n)|κλόουν|N||||appearance|A2||
+costume (n)|στολή|N||||appearance|A2||
+event (n)|εκδήλωση|N||||appearance|A2||
+firework (n)|πυροτέχνημα|N||||appearance|A2||
+national anthem (n)|εθνικός ύμνος|N||||appearance|A2||
+performance (n)|παράσταση|N||||appearance|A2||
+rodeo (n)|ροντέο|N||||appearance|A2||
+trumpet (n)|τρομπέτα|N||||appearance|A2||
+wonderful (adj)|θαυμάσιος|ADJ||||appearance|A2||
+audience (n)|κοινό|N||||film and the arts|A2||
+fantastic (adj)|φανταστικός|ADJ||||film and the arts|A2||
+harbour (n)|λιμάνι|N||||film and the arts|A2||
+opera house (n)|όπερα|N||||film and the arts|A2||
+outdoor (adj)|υπαίθριος|ADJ||||film and the arts|A2||
+screen (n)|οθόνη|N||||film and the arts|A2||
+sight (n)|θέα|N||||film and the arts|A2||
+strange (adj)|παράξενος|ADJ||||film and the arts|A2||
+view (n)|θέα|N||||film and the arts|A2||
+afterwards (adv)|κατόπιν|ADV||||film and the arts|A2||
+animation (n)|κινούμενα σχέδια|N||||film and the arts|A2||
+comedy (n)|κωμωδία|N||||film and the arts|A2||
+documentary (n)|ντοκιμαντέρ|N||||film and the arts|A2||
+horror film (n)|ταινία τρόμου|N||||film and the arts|A2||
+romantic (adj)|ρομαντικός|ADJ||||film and the arts|A2||
+science-fiction (n)|επιστημονική φαντασία|N||||film and the arts|A2||
+stay (v)|μένω|V||||film and the arts|A2||
+ticket (n)|εισιτήριο|N||||film and the arts|A2||
+biologist (n)|βιολόγος|N||||film and the arts|A2||
+director (n)|σκηνοθέτης|N||||film and the arts|A2||
+edit (v)|επεξεργασία, μοντάζ|V||||film and the arts|A2||
+equipment (n)|εξοπλισμός|N||||film and the arts|A2||
+expensive (adj)|ακριβός|ADJ||||film and the arts|A2||
+heavy (adj)|βαρύς|ADJ||||film and the arts|A2||
+the Internet (n)|το Διαδίκτυο|N||||film and the arts|A2||
+plan (v)|σχεδιάζω|V||||film and the arts|A2||
+visa (n)|βίζα|N||||film and the arts|A2||
+wildlife (n)|άγρια ζώα|N||||film and the arts|A2||
+art critic (n)|κριτικός τέχνης|N||||film and the arts|A2||
+butterfly (n)|πεταλούδα|N||||film and the arts|A2||
+disagree (v)|διαφωνώ|V||||film and the arts|A2||
+field (n)|λιβάδι|N||||film and the arts|A2||
+genius (n)|ιδιοφυΐα|N||||film and the arts|A2||
+grass (n)|γρασίδι|N||||film and the arts|A2||
+kangaroo (n)|καγκουρό|N||||film and the arts|A2||
+leaf (n)|φύλλο|N||||film and the arts|A2||
+postcard (n)|καρτ-ποστάλ|N||||film and the arts|A2||
+print (n)|αντίτυπο χαρακτικού|N||||film and the arts|A2||
+print (v)|τυπώνω|V||||film and the arts|A2||
+result (n)|αποτέλεσμα|N||||film and the arts|A2||
+rock (n)|βράχος|N||||film and the arts|A2||
+sea (n)|θάλασσα|N||||film and the arts|A2||
+sky (n)|ουρανός|N||||film and the arts|A2||
+sunflower (n)|ηλιοτρόπιο|N||||film and the arts|A2||
+extra (adj)|επιπλέον|ADJ||||film and the arts|A2||
+free (adj)|ελεύθερος|ADJ||||film and the arts|A2||
+phantom (n)|φάντασμα|N||||film and the arts|A2||
+rainforest (n)|τροπικό δάσος|N||||film and the arts|A2||
+trap (n)|παγίδα|N||||film and the arts|A2||
+wait (v)|περιμένω|V||||film and the arts|A2||
+wildlife conservationist (n)|άτομο υπέρ της προστασίας της άγριας ζωής|N||||film and the arts|A2||
+brain (n)|μυαλό|N||||science|A2||
+chemical (n)|χημική ουσία|N||||science|A2||
+electrical (adj)|ηλεκτρικός|ADJ||||science|A2||
+energy (n)|ενέργεια|N||||science|A2||
+fix (v)|επισκευάζω|V||||science|A2||
+laptop (n)|φορητός υπολογιστής|N||||science|A2||
+shut down (phr v)|απενεργοποιώ|PHR V||||science|A2||
+similarity (n)|ομοιότητα|N||||science|A2||
+virus (n)|ιός|N||||science|A2||
+communication (n)|επικοινωνία|N||||science|A2||
+download (v)|κάνω λήψη|V||||science|A2||
+ebook (n)|ηλεκτρονικό βιβλίο|N||||science|A2||
+email (n)|ηλεκτρονικό ταχυδρομείο|N||||science|A2||
+household (n)|νοικοκυριό|N||||science|A2||
+library (n)|βιβλιοθήκη|N||||science|A2||
+online (adj)|διαδικτυακό|ADJ||||science|A2||
+podcast (n)|podcast |N||||science|A2||
+researcher (n)|ερευνητής|N||||science|A2||
+sat nav (n)|συσκευή δορυφορικής πλοήγησης|N||||science|A2||
+search engine (n)|μηχανή αναζήτησης|N||||science|A2||
+survey (n)|έρευνα|N||||science|A2||
+technology (n)|τεχνολογία|N||||science|A2||
+travel agent (n)|ταξιδιωτικός πράκτορας|N||||science|A2||
+athlete (n)|αθλητής|N||||science|A2||
+championship (n)|πρωταθλητής|N||||science|A2||
+forget (v)|ξεχνώ|V||||science|A2||
+memorise (v)|απομνημονεύω|V||||science|A2||
+memory (n)|μνήμη|N||||science|A2||
+remember (v)|θυμάμαι|V||||science|A2||
+repeat (v)|επαναλαμβάνω|V||||science|A2||
+special (adj)|ιδιαίτερος|ADJ||||science|A2||
+technique (n)|τεχνική|N||||science|A2||
+atom (n)|άτομο (Φυσική)|N||||science|A2||
+comfortable (adj)|άνετος|ADJ||||science|A2||
+electricity (n)|ηλεκτρισμός|N||||science|A2||
+image (n)|εικόνα|N||||science|A2||
+impossible (adj)|αδύνατος|ADJ||||science|A2||
+invent (v)|εφευρίσκω|V||||science|A2||
+invisible (adj)|αόρατος|ADJ||||science|A2||
+ipod (n)|ipod|N||||science|A2||
+manufacturer (n)|κατασκευαστής|N||||science|A2||
+prototype (n)|πρωτότυπο|N||||science|A2||
+runway (n)|διάδρομος προσγείωσης και απογείωσης|N||||science|A2||
+servant (n)|υπηρέτης|N||||science|A2||
+sticky tape (n)|σελοτέιπ|N||||science|A2||
+teleport (v)|τηλεμεταφέρω|V||||science|A2||
+transportation (n)|μεταφορά|N||||science|A2||
+vacuum cleaner (n)|ηλεκτρική σκούπα|N||||science|A2||
+colleague (n)|συνάδελφος|N||||science|A2||
+design (n)|σχέδιο|N||||science|A2||
+urgent (adj)|επείγων|ADJ||||science|A2||
+website (n)|διαδικτυακή τοποθεσία|N||||science|A2||
+business (n)|επιχείρηση|N||||science|A2||
+card (n)|κάρτα|N||||science|A2||
+definition (n)|ορισμός|N||||science|A2||
+exam (n)|διαγώνισμα|N||||science|A2||
+learn (v)|μαθαίνω|V||||science|A2||
+meaning (n)|έννοια|N||||science|A2||
+understand (v)|καταλαβαίνω|V||||science|A2||
+backpacking (n)|ταξίδι με σακίδιο πλάτης|N||||tourism|A2||
+gap year (n)|έτος ανάπαυλας|N||||tourism|A2||
+tent (n)|σκηνή|N||||tourism|A2||
+amazing (adj)|εκπληκτικός|ADJ||||tourism|A2||
+coast (n)|ακτή|N||||tourism|A2||
+dangerous (adj)|επικίνδυνος|ADJ||||tourism|A2||
+destination (n)|προορισμός|N||||tourism|A2||
+independent (adj)|ανεξάρτητος|ADJ||||tourism|A2||
+jungle (n)|ζούγκλα|N||||tourism|A2||
+phrase book (n)|βιβλίο φράσεων|N||||tourism|A2||
+rent (v)|νοικιάζω|V||||tourism|A2||
+sightseeing (n)|επίσκεψη αξιοθέατων|N||||tourism|A2||
+souvenir (n)|σουβενίρ|N||||tourism|A2||
+suggestion (n)|πρόταση|N||||tourism|A2||
+tour guide (n)|ξεναγός|N||||tourism|A2||
+traveller (n)|ταξιδιώτης|N||||tourism|A2||
+climate (n)|κλίμα|N||||tourism|A2||
+currency (n)|νόμισμα|N||||tourism|A2||
+embassy (n)|πρεσβεία|N||||tourism|A2||
+hitchhiking (n)|ταξίδι με ωτοστόπ|N||||tourism|A2||
+illegal (adj)|παράνομος|ADJ||||tourism|A2||
+licence (n)|άδεια|N||||tourism|A2||
+multicultural (adj)|πολυπολιτισμικός|ADJ||||tourism|A2||
+tourist (n)|τουρίστας|N||||tourism|A2||
+choose (v)|επιλέγω|V||||tourism|A2||
+cruise (n)|κρουαζιέρα|N||||tourism|A2||
+decrease (v)|μειώνω|V||||tourism|A2||
+environmental organisation (n)|περιβαλλοντική οργάνωση|N||||tourism|A2||
+excitement (n)|συναρπαστική εμπειρία|N||||tourism|A2||
+government (n)|κυβέρνηση|N||||tourism|A2||
+positive (adj)|θετικός|ADJ||||tourism|A2||
+safari (n)|σαφάρι|N||||tourism|A2||
+swimming pool (n)|πισίνα|N||||tourism|A2||
+brochure (n)|φυλλάδιο|N||||tourism|A2||
+disadvantage (n)|μειονέκτημα|N||||tourism|A2||
+interesting (adj)|ενδιαφέρων|ADJ||||tourism|A2||
+direction (n)|κατεύθυνση|N||||tourism|A2||
+emotional (adj)|συναισθηματικός|ADJ||||tourism|A2||
+pilgrim (n)|προσκυνητής|N||||tourism|A2||
+pilgrimage (n)|προσκύνημα|N||||tourism|A2||
+pray (v)|προσεύχομαι|V||||tourism|A2||
+silence (n)|σιωπή|N||||tourism|A2||
+spiritual (adj)|πνευματικός|ADJ||||tourism|A2||
+equator (n)|ισημερινός|N||||the earth|A2||
+conclusion (n)|συμπέρασμα|N||||the earth|A2||
+predict (v)|προβλέπω|V||||the earth|A2||
+rainfall (n)|βροχόπτωση|N||||the earth|A2||
+adventure (n)|περιπέτεια|N||||the earth|A2||
+creature (n)|πλάσμα|N||||the earth|A2||
+deep (adj)|βαθύς|ADJ||||the earth|A2||
+explore (v)|εξερευνώ|V||||the earth|A2||
+film director (n)|σκηνοθέτης|N||||the earth|A2||
+freeze (v)|παγώνω|V||||the earth|A2||
+glacier (n)|παγετώνας|N||||the earth|A2||
+submarine (n)|υποβρύχιο|N||||the earth|A2||
+tropical (adj)|τροπικός|ADJ||||the earth|A2||
+astronomer (n)|αστρονόμος|N||||the earth|A2||
+orbit (v)|κινούμαι σε κυκλική τροχιά|V||||the earth|A2||
+rubbish (n)|σκουπίδια|N||||the earth|A2||
+politician (n)|πολιτικός|N||||the earth|A2||
+environment (n)|περιβάλλον|N||||the earth|A2||
+efficient (adj)|αποτελεσματικός|ADJ||||the earth|A2||
+bulb (n)|λάμπα|N||||the earth|A2||
+active (adj)|ενεργός|ADJ||||the earth|A2||
+create (v)|δημιουργώ|V||||the earth|A2||
+destroy (v)|καταστρέφω|V||||the earth|A2||
+eruption (n)|έκρηξη (ηφαιστείου)|N||||the earth|A2||
+gas (n)|αέριο|N||||the earth|A2||
+lava (n)|λάβα|N||||the earth|A2||
+magma (n)|μάγμα|N||||the earth|A2||
+melt (v)|λιώνω|V||||the earth|A2||
+surface (n)|επιφάνεια|N||||the earth|A2||
+tectonic plate (n)|τεκτονική πλάκα|N||||the earth|A2||

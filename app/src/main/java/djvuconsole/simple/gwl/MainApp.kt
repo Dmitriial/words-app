@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -72,8 +73,8 @@ fun MainNavHost(
 
     var shouldShowOnboarding by remember { mutableStateOf(true) }
     var selectedTheme by remember { mutableStateOf("") }
-    var selectedWordIndex by remember { mutableStateOf(0) }
-    var selectedWordMaxIndex by remember { mutableStateOf(0) }
+    var selectedWordIndex by remember { mutableIntStateOf(0) }
+    var selectedWordMaxIndex by remember { mutableIntStateOf(0) }
 
     if (themes.isEmpty())
         themes.setValues(

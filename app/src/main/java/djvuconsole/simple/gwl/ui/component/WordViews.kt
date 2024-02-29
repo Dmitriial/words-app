@@ -3,16 +3,11 @@ package djvuconsole.simple.gwl.ui.component
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FloatingActionButton
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
@@ -26,8 +21,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -57,8 +50,7 @@ fun WordElement(word: Word, selectedWord: Word,
     }
 
     val isRight = word == selectedWord
-    val extraPadding = if (expended) 48.dp else 0.dp
-    val textDescription = if (!expended) word.greek else "${word.greek}\n${word.example}"
+    val textDescription = if (!expended) word.greek else "${word.greek}\nexample:${word.example}\nenglish: ${word.english}\nrussian: ${word.russian}"
 
     Surface(color= MaterialTheme.colorScheme.primary,
         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) {
@@ -66,7 +58,6 @@ fun WordElement(word: Word, selectedWord: Word,
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .padding(bottom = extraPadding)
             ) {
                 Button(
                     onClick = {
@@ -156,42 +147,6 @@ fun WordScreen(
             }
         }
     }
-
-//    Surface(
-//        modifier = Modifier.fillMaxSize(),
-//    ) {
-////        Column(modifier = Modifier
-////            .fillMaxWidth()
-////            .padding(vertical = 4.dp)) {
-////            Text(text = "Theme: $selectedTheme (${index + 1} / ${indexMax - 1})", textAlign = TextAlign.Center)
-////            Text(text = "Score: $score\n", textAlign = TextAlign.Center)
-////            Text(
-////                text = "${word.getValue().english} (${word.getValue().languageType})\n",
-////                textAlign = TextAlign.Center,
-////                fontSize = 24.sp
-////            )
-////            Text(
-////                text = if (word.getValue().russian.isNotEmpty()) "${word.getValue().russian} (${word.getValue().languageType})\n" else "",
-////                textAlign = TextAlign.Center,
-////                fontSize = 24.sp
-////            )
-////
-////            words.getValues().forEachIndexed { i, w ->
-////                WordElement(w, selectedWord = word.getValue(),
-////                    onSelect = {
-////                        wellnessViewModel.resetValues()
-////                        onSelect(w)
-////                        score += 2
-////                    },
-////                    onColor = {
-////                        wellnessViewModel.setValue(i, it)
-////                        score -= 1
-////                    },
-////                    color = wellnessViewModel.getValue(i)
-////                )
-////            }
-////        }
-//    }
 }
 
 

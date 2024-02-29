@@ -11,9 +11,6 @@ import djvuconsole.simple.gwl.data.Word
 class ColorsViewModel: ViewModel() {
     private val _innerColors = ArrayList<Color>().toMutableStateList()
 
-    val colorsInside: List<Color>
-        get() = _innerColors
-
     fun setValue(index: Int, value: Color) {
         if (_innerColors.count() <= index)
             return
@@ -52,11 +49,6 @@ class ThemeWordsViewModel: ViewModel() {
         return _innerWords.count()
     }
 
-    fun addValues(words: List<Word>)
-    {
-        _innerWords.addAll(words)
-    }
-
     fun setValues(words: List<Word>?)
     {
         _innerWords.clear()
@@ -86,11 +78,6 @@ class ThemeWordsSelectedViewModel: ViewModel() {
         return _innerWords.count()
     }
 
-    fun addValues(words: List<Word>)
-    {
-        _innerWords.addAll(words)
-    }
-
     fun setValues(words: List<Word>?)
     {
         _innerWords.clear()
@@ -117,15 +104,6 @@ class ThemesViewModel: ViewModel() {
         return _innerWords.isEmpty()
     }
 
-    fun count(): Int {
-        return _innerWords.count()
-    }
-
-    fun addValues(words: List<Theme>)
-    {
-        _innerWords.addAll(words)
-    }
-
     fun setValues(words: List<Theme>?)
     {
         _innerWords.clear()
@@ -140,10 +118,6 @@ class ThemesViewModel: ViewModel() {
             return Theme()
 
         return _innerWords[index]
-    }
-
-    fun getValues(): List<Theme> {
-        return _innerWords
     }
 }
 
